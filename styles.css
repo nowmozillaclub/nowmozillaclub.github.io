@@ -1,0 +1,49 @@
+body {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+.now {
+    font-size: 28px;
+    padding-top: 200px;
+}
+.network, .openweb {
+    line-height: 0px;
+    font-family: 'Lilita One';
+    letter-spacing: 5px;
+}
+.forthe {
+    line-height: 10px;
+    font-family: 'Great Vibes';
+}
+.social {
+    padding-top: 50px;
+}
+.social p {
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+}
+ul {
+	padding-left: 0px;
+}
+li {
+    list-style: none;
+    display: inline;
+	padding: 10px;
+    font-size: 28px;
+}
+a {
+    color: #e0e0e0;
+}
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+.fa-instagram:hover {
+    color: #d6249f
+}
+.fa-twitter:hover {
+    color: #55acee;
+}
+.fa-github:hover {
+    color: #767676;
+}
