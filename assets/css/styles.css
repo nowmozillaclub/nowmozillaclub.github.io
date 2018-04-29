@@ -5,7 +5,7 @@ body {
 }
 .now {
     font-size: 28px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .network, .openweb {
     line-height: 0px;
@@ -38,6 +38,9 @@ a {
 .fa-facebook-f:hover {
     color: #3b5998;
 }
+.fa-facebook-messenger:hover {
+    color: #3b5998;
+}
 .fa-instagram:hover {
     color: #d6249f
 }
@@ -49,4 +52,13 @@ a {
 }
 .fa-envelope:hover{
     color: #FFB94A;
+}
+.fa-users:hover {
+    color: #90EE90;
+}
+.privacy > p > a {
+    color: #777777;
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-decoration: none;
 }
