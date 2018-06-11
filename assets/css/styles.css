@@ -1,20 +1,22 @@
-body {
-    color: #fff;
-    background-color: #000;
-    text-align: center;
+body{
+    font-family: 'Playfair Display';
+    padding: 50 px;
 }
 .now {
     font-size: 28px;
-    padding-top: 150px;
+    padding-top:20px;
+  
 }
 .network, .openweb {
     line-height: 0px;
-    font-family: 'Lilita One';
+    font-family: 'Playfair Display';
     letter-spacing: 5px;
+
 }
 .forthe {
     line-height: 10px;
-    font-family: 'Great Vibes';
+    font-family: 'Playfair Display';
+  
 }
 .social {
     padding-top: 50px;
@@ -24,12 +26,12 @@ body {
     letter-spacing: 2px;
 }
 ul {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 li {
-    list-style: none;
+    list-style-type: none;
     display: inline;
-	padding: 10px;
+    padding: 10px;
     font-size: 28px;
 }
 a {
@@ -51,14 +53,8 @@ a {
     color: #767676;
 }
 .fa-envelope:hover{
-    color: #FFB94A;
+    color: #ff0000;
 }
 .fa-users:hover {
     color: #90EE90;
-}
-.privacy > p > a {
-    color: #777777;
-    font-family: 'Roboto';
-    font-size: 12px;
-    text-decoration: none;
 }
