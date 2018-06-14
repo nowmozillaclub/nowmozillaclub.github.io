@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="assets/css/webslides.css">
+    <link rel="stylesheet" href="assets/css/svg-icons.css">   
+	<script>
+	function teach() {
+	    document.getElementById("change_text").innerHTML = "Teach the next generation of coders the subtle art of coding. (Ctrl C + Ctrl V) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	function build() {
+	    document.getElementById("change_text").innerHTML = "Build for ourselves a better web (Whatever the hell that means).&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	function protect() {
+	    document.getElementById("change_text").innerHTML = "Protect the integrity of the open web. (Yes, we are that pretentious)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	</script>
+</head>
+<body>
+    <article id="webslides">
+    	<section>
+    	<div class="wrap" style="text-align: center;">
+            <nav class="navbar" role="navigation">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li class="active"><a href="event.html">Event</a></li>
+                  <li><a href="#">Project</a></li>
+                  <li><a href="about.html">About</a></li>
+                </ul>   
+            </nav>
+        <br><br>
+		  <h2 align="left">About Us</h2>
+		  <h4 align="left">We are a committee devoted to enriching the open web and protecting its integrity. We take up interesting projects and work on them. We have also helped organize several technical events. (Edits needed)</h4>
+		  <hr>
+		</div>
+		</section>
+		<section>
+			<br>
+		  <ul class="flexblock steps">
+			<li>
+		      <p><h2> We are here to: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2></p>
+		      <p id="change_text"></p>
+		    </li>
+		    <li onmouseover="teach()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Teach" src="assets/images/teach.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2> Teach </h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		   <li onmouseover="build()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Build" src="assets/images/build.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2 > Build </h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		   <li onmouseover="protect()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Protect" src="assets/images/protect.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2>Protect</h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		 </ul>
+		</section>
+    </article>
+    <script src="assets/js/webslides.js"></script>
+    <script src="assets/js/svg-icons.js"></script>
+    <script>window.ws = new WebSlides();</script>
+</body>
+</html>
