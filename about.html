@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="assets/css/webslides.css">
+    <link rel="stylesheet" href="assets/css/svg-icons.css">
+	<script>
+	function teach() {
+	    document.getElementById("change_text").innerHTML = "Teach the next generation of coders the subtle art of coding. (Ctrl C + Ctrl V) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	function build() {
+	    document.getElementById("change_text").innerHTML = "Build for ourselves a better web (Whatever the hell that means).&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	function protect() {
+	    document.getElementById("change_text").innerHTML = "Protect the integrity of the open web. (Yes, we are that pretentious)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+	}
+	</script>
+</head>
+<body>
+
+	<header role="banner-fixed">
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="event.html">Event</a></li>
+        <li class="active"><a href="about.html">About</a></li>
+     </ul>
+    </nav>
+  </header>
+
+    <article id="webslides">
+    	<section>
+    	<div class="wrap" style="text-align: center;">
+        <br><br>
+		  <h3 align="left">About Us</h3>
+		  <p align="left">We are a committee devoted to enriching the open web and protecting its integrity. We take up interesting projects and work on them. We have also helped organize several technical events. (Edits needed)</p>
+		  <hr>
+		</div>
+		</section>
+		<section>
+			<br>
+		  <ul class="flexblock steps">
+			<li>
+		      <p><h2> We are here to: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2></p>
+		      <p id="change_text"></p>
+		    </li>
+		    <li onmouseover="teach()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Teach" src="assets/images/teach.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2> Teach </h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		   <li onmouseover="build()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Build" src="assets/images/build.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2 > Build </h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		   <li onmouseover="protect()">
+		     <a href="#">
+		       <figure>
+		         <img alt="Protect" src="assets/images/protect.png" style="height: 300px; width: 300px">
+		         <figcaption>
+		           <h2>Protect</h2>
+		         </figcaption>
+		       </figure>
+		     </a>
+		   </li>
+		 </ul>
+		</section>
+		<section>
+          <div class="wrap">
+            <h2>On Going Projects</h2>
+            <hr>
+            <div class="grid">
+              <div class="column">
+                <h3>Netco</h3>
+                <p>App to simplify recruitment process.</p>
+                <p>A user friendly android app for de-cluttering the process of recruiting individuals for a specific role in the various college committees.</p>
+              </div>
+              <div class="column">
+                <h3>Salute</h3>
+                <p>A secure Messaging app</p>
+                <p>An application that provides you to communicate with someone without having the fear of your privacy on your mind.</p>
+              </div>
+              <div class="column">
+                <h3>TunePref</h3>
+                <p>Finding tunes to your groove</p>
+                <p>An application developed using Machine Learning that helps you find the best tunes that suits your preference.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </article>
+    <script src="assets/js/webslides.js"></script>
+    <script src="assets/js/svg-icons.js"></script>
+    <script>window.ws = new WebSlides();</script>
+</body>
+</html>
