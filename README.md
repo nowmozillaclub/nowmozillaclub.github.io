@@ -1,7 +1,7 @@
 # nowmozillaclub.github.io
 The Official website of Network for the Open Web - A Mozilla Campus Club
 
-N.O.W. was founded in 2017 with one purpose; well *technically*, three intervowen principles:
+N.O.W. was founded in 2018 with one purpose; well *technically*, three intervowen principles:
 
 - Learn
 - Build
