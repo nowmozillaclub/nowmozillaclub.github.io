@@ -15,4 +15,4 @@ We're into everything Open Source and all things Secure.
 Check out the [website](http://nowmozilla.club) and stay tuned for more updates!
 
 # This fork was redesigned with Material Design by:
-<br>• Urmil Shroff<br>• Priyansh Ramnani<br>• Mamta Yadav<br>• Nirmit Agrawal
+• Urmil Shroff<br>• Priyansh Ramnani<br>• Mamta Yadav<br>• Nirmit Agrawal
