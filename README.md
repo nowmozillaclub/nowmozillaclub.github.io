@@ -1,4 +1,4 @@
-# nowmozillaclub.github.io
+# N.O.W. Mozilla Club
 The Official website of Network for the Open Web - A Mozilla Campus Club
 
 N.O.W. was founded in 2018 with one purpose; well *technically*, three intervowen principles:
@@ -13,3 +13,6 @@ We have conducted a few events, and have laid the groundwork for some more in th
 We're into everything Open Source and all things Secure.
 
 Check out the [website](http://nowmozilla.club) and stay tuned for more updates!
+
+# This fork was redesigned with Material Design by:
+<br>• Urmil Shroff<br>• Priyansh Ramnani<br>• Mamta Yadav<br>• Nirmit Agrawal
