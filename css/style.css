@@ -1,3 +1,7 @@
+/*NOW colors for reference:
+yellow: #ffb94a
+orange: #ff6611 */
+
 *
 {
 	box-sizing: border-box;
@@ -8,8 +12,8 @@ body
 	margin:0;
 	padding:0;
 	color:#212121;
-	background-color:#455a64;
-    font-family: 'Roboto', sans-serif;
+	background-color:#ffb94a;
+    font-family: 'K2D', sans-serif;
 }
 
 a
@@ -25,7 +29,7 @@ a
 	width:100%;
 	height:25%;
 	top:0;
-	background-color:#d32f2f;
+	background-color:#ff6611;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
 	overflow:auto;
 }
@@ -50,9 +54,9 @@ a
 
 #quick_card #photo
 {
-	height:80px;
-	width:80px;
-	border-radius:99px;
+	height:100px;
+	width:100px;
+	border-radius:20px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
 	overflow:auto;
 }
@@ -90,7 +94,7 @@ a
 #about_card>.tab>.title
 {
 	font-size:16px;
-	color:#d32f2f;
+	color:#ff6611;
 }
 
 .title i
@@ -113,7 +117,7 @@ a
 
 #about_card .element .name
 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'K2D', sans-serif;
 	color:#212121;
 	font-size:15px;
 	margin-bottom:3px;
@@ -152,7 +156,7 @@ hr
 #contact_card>.tab>.title
 {
 	font-size:16px;
-	color:#d32f2f;
+	color:#ff6611;
 }
 
 #contact_card>.tab>.content
