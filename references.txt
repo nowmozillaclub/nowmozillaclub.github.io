@@ -1,0 +1,5 @@
+NOW theme colors:
+yellow: #ffb94a
+orange: #ff6611
+
+MDL components: https://getmdl.io/components/index.html
