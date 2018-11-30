@@ -25,7 +25,7 @@ body {
 ul {
     display: flex;
     position: absolute;
-    top: 51%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -37,16 +37,13 @@ ul li {
 ul li a {
     width: 80px;
     height: 80px;
-    background: #fff;
     text-align: center;
     line-height: 80px;
     font-size: 35px;
     margin: 0 10px;
     display: block;
-    border-radius: 50%;
     position: relative;
     overflow: hidden;
-    border: 3px solid #fff;
 }
 
 ul li a .fa {

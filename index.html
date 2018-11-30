@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
 
 <head>
-
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N.O.W. Mozilla Club</title>
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
@@ -15,6 +14,7 @@
 </head>
 
 <body>
+    <div id="bg"></div>
 
     <!-- <div class="topNavigationBar">
                   <a class="active" href="index.html">Home</a>
@@ -22,7 +22,6 @@
                   <a href="#">Events</a>
                   <a href="#">About</a>
         </div> -->
-
 
     <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="topNavigationBar">
         <div class="mdl-tabs__tab-bar">
@@ -32,7 +31,42 @@
             <a href="#about-panl" class="mdl-tabs__tab">About</a>
         </div>
 
-        <div class="mdl-tabs__panel is-active" id="home" href="./index.html"></div>
+        <div class="mdl-tabs__panel is-active" id="home" href="./index.html">
+            <header>
+                <div id="quick_card" class="card">
+
+                    <div><img id="photo" src="./img/now_logo.png" /></div>
+                    <h1 id="name">N.O.W. Mozilla Club</h1>
+                    <h2 id="description">An open-source innovation center for everyone!</h2>
+
+                </div>
+            </header>
+
+            <div id="contact_card" class="card">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/nowmozillaclub"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.messenger.com/t/nowmozillaclub"><i class="fab fa-facebook-messenger"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/nowmozillaclub/"><i class="fab fa-instagram"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/nowmozillaclub"><i class="fab fa-twitter"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/nowmozillaclub"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
         <div class="mdl-tabs__panel" id="team">
             <h2>Nothing much to see (yet!)</h2>
         </div>
@@ -44,39 +78,6 @@
         </div>
     </div>
 
-
-
-    <div id="bg"></div>
-    <header>
-        <div id="quick_card" class="card">
-
-            <div><img id="photo" src="./img/now_logo.png" /></div>
-            <h1 id="name">N.O.W. Mozilla Club</h1>
-            <h2 id="description">An open-source innovation center for everyone!</h2>
-
-        </div>
-    </header>
-    <ul>
-        <li>
-            <a href="https://www.facebook.com/nowmozillaclub"><i class="fab fa-facebook-f"></i></a>
-        </li>
-
-        <li>
-            <a href="https://www.messenger.com/t/nowmozillaclub"><i class="fab fa-facebook-messenger"></i></a>
-        </li>
-
-        <li>
-            <a href="https://www.instagram.com/nowmozillaclub/"><i class="fab fa-instagram"></i></a>
-        </li>
-
-        <li>
-            <a href="https://twitter.com/nowmozillaclub"><i class="fab fa-twitter"></i></a>
-        </li>
-
-        <li>
-            <a href="https://github.com/nowmozillaclub"><i class="fab fa-github"></i></a>
-        </li>
-    </ul>
 </body>
 
 </html>
