@@ -5,7 +5,6 @@
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>N.O.W. Mozilla Club</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=K2D|Roboto+Mono|Quicksand:500" rel="stylesheet">
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -15,13 +14,33 @@
     </head>
     <body>
         
-        <div class="topNavigationBar">
+        <!-- <div class="topNavigationBar">
                   <a class="active" href="index.html">Home</a>
                   <a href="#">Team</a>
                   <a href="#">Events</a>
                   <a href="#">About</a>
-        </div>
+        </div> -->
         
+        
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="topNavigationBar">
+  <div class="mdl-tabs__tab-bar">
+      <a href="#home-panel" class="mdl-tabs__tab is-active">Home</a>
+      <a href="#team-panel" class="mdl-tabs__tab">Team</a>
+      <a href="#events-panel" class="mdl-tabs__tab">Events</a>
+      <a href="#about-panl" class="mdl-tabs__tab">About</a>
+  </div>
+
+  <div class="mdl-tabs__panel is-active" id="home" href="./index.html"></div>
+  <div class="mdl-tabs__panel" id="team">
+    <h2>Nothing much to see (yet!)</h2>
+  </div>
+  <div class="mdl-tabs__panel" id="events">
+    <h2>Nothing much to see (yet!)</h2>
+  </div>
+  <div class="mdl-tabs__panel" id="about">
+    <h2>Nothing much to see (yet!)</h2>
+  </div>
+</div>
         
         
         
