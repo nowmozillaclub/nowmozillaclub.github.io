@@ -1,184 +1,189 @@
 /*NOW colors for reference:
 yellow: #ffb94a
 orange: #ff6611 */
-
-*
-{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body
-{
-	margin:0;
-	padding:0;
-	color:#212121;
-	background-color:#ffb94a;
+.topNavigationBar {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    background-color: #ffb94a;
     font-family: 'Quicksand', sans-serif;
 }
 
-a
-{
-	color:#2196F3;
-	text-decoration:none;
+.topNavigationBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-#bg
-{
-	z-index:-1;
-	position:fixed;
-	width:100%;
-	height:30%;
-	top:0;
-	background-color:#ff6611;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
+/* Add a color to the active/current link */
+.topNavigationBar a.active {
+    background-color: #ff6611;
+    color: white;
 }
 
-.card /*material shadow card*/
-{
-	width:700px;
-	margin:0 auto;
-	color:#212121;
-	background-color:#fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
+a {
+    color: #2196F3;
+    text-decoration: none;
 }
 
-#quick_card /*the card with the name and photo*/
-{
-	padding:50px;
-	margin-top:10vh;
-	text-align:center;
-}
-
-#quick_card #photo
-{
-	height:100px;
-	width:100px;
-	border-radius:5px;
+#bg {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    background-color: #ff6611;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
+    overflow: auto;
 }
 
-#quick_card #name
-{
-	font-weight:normal;
-	margin-top:20px;
-	font-size:25px;
-	color:#212121;
+.card
+
+/*material shadow card*/
+    {
+    width: 700px;
+    margin: 0 auto;
+    color: #212121;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
 }
 
-#quick_card #description
-{
+#quick_card
+
+/*the card with the name and photo*/
+    {
+    padding: 50px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#quick_card #photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+#quick_card #name {
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #212121;
+}
+
+#quick_card #description {
     font-family: 'Roboto Mono', monospace;
-	font-weight:normal;
-	margin-top:15px;
-	font-size:17px;
-	color:#616161;
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #616161;
 }
 
-#about_card /*the card with the cool info*/
-{
-	position:relative;
-	padding:15px 32px 8px 32px;
-	margin-top:22px;
+#about_card
+
+/*the card with the cool info*/
+    {
+    position: relative;
+    padding: 15px 32px 8px 32px;
+    margin-top: 22px;
 }
 
-#about_card>.tab
-{
-	margin-top:10px;
-	margin-bottom:10px;
+#about_card>.tab {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#about_card>.tab>.title
-{
-	font-size:16px;
-	color:#ff6611;
+#about_card>.tab>.title {
+    font-size: 16px;
+    color: #ff6611;
 }
 
-.title i
-{
-	position:relative;
-	left:-10px;
+.title i {
+    position: relative;
+    left: -10px;
 }
 
-#about_card>.tab>.content
-{
-	padding:5px 20px 5px 20px;
-	position:relative;
+#about_card>.tab>.content {
+    padding: 5px 20px 5px 20px;
+    position: relative;
 }
 
-#about_card .element
-{
-	margin-bottom:5px;
-	margin-top:5px;
+#about_card .element {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
-#about_card .element .name
-{
+#about_card .element .name {
     font-family: 'Quicksand', sans-serif;
-	color:#212121;
-	font-size:30px;
-	margin-bottom:3px;
+    color: #212121;
+    font-size: 30px;
+    margin-bottom: 3px;
 }
 
-#about_card .element .info
-{
+#about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-	color:#616161;
-	font-size:14px;
+    color: #616161;
+    font-size: 14px;
 }
 
-hr
-{
-	width:60%;
-	color: #E0E0E0;
-	background-color: #E0E0E0;
-	height:1px;
-	border:0;
+hr {
+    width: 60%;
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    height: 1px;
+    border: 0;
 }
 
-#contact_card /*the card with the contact links*/
-{
-	position:relative;
-	padding:15px 30px 15px 30px;
-	margin-top:22px;
-	margin-bottom:40px;
+#contact_card
+
+/*the card with the contact links*/
+    {
+    position: relative;
+    padding: 10px 10px 10px 150px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
-#contact_card>.tab
-{
-	margin-top:3px;
-	margin-bottom:8px;
+/* #contact_card>.tab {
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
-#contact_card>.tab>.title
-{
-	font-size:16px;
-	color:#ff6611;
+#contact_card>.tab>.title {
+    font-size: 16px;
+    color: #ff6611;
 }
 
-#contact_card>.tab>.content
-{
-	padding-top:10px;
-	text-align:center;
+#contact_card>.tab>.content {
+    padding-top: 10px;
+    text-align: center;
 }
 
-#contact_card>.tab>.content>.contacts
-{
-	margin:0 20px 0 20px;
-	display:inline-block;
-	font-size:14px;
-	color:#212121;
-}
+#contact_card>.tab>.content>.contacts {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+} 
 
-#contact_card a
-{
-	color:#616161;
-	text-decoration:none;
-}
-
+#contact_card a {
+    color: #616161;
+    text-decoration: none;
+} */
 /* #fab
 {
 	position:fixed;
@@ -205,29 +210,135 @@ hr
 		right:calc((100% - 550px)/4 - 30px);
 	}
 } */
+ul {
+    display: flex;
+    position: relative;
+}
 
-@media (min-width: 481px) and (max-width: 960px)
-{
-	.card
+ul li {
+    list-style: none;
+}
+
+ul li a
+
+/*For social buttons */
     {
-		width:80%;
-	}
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    margin: 0 6px;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+ul li a .fab {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+ul li a:hover:before {
+    top: 0;
+}
+
+ul li:nth-child(1) a:before {
+    background: #3b5999;
+}
+
+ul li:nth-child(1) a:hover .fab {
+    /*For social buttons when hovered */
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+ul li:nth-child(2) a:before {
+    background: #0084ff;
+}
+
+ul li:nth-child(2) a:hover .fab {
+    /*For social buttons when hovered */
+    color: #fff;
+    transform: rotateX(360deg);
+}
+
+ul li:nth-child(3) a:before {
+    background: #e4405f;
+}
+
+ul li:nth-child(3) a:hover .fab {
+    /*For social buttons when hovered */
+    color: #fff;
+    transform: rotateZ(360deg);
+}
+
+ul li:nth-child(4) a:before {
+    background: #55acee;
+}
+
+ul li:nth-child(4) a:hover .fab {
+    /*For social buttons when hovered */
+    color: #fff;
+    transform: rotateX(360deg);
+}
+
+ul li:nth-child(5) a:before {
+    background: #333;
+}
+
+ul li:nth-child(5) a:hover .fab {
+    /*For social buttons when hovered */
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
+    .card {
+        width: 75%;
+    }
     
-	/* #fab
+    #contact_card
+    {
+        padding: 5px 20px 5px 70px;
+    }
+
+    /* #fab
     {
 		bottom:2%;
 		right:2%;
 	} */
 }
 
-@media (max-width: 480px)
-{
-	.card
-    {
-		width:90%;
-	}
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
     
-	/* #fab
+    #contact_card
+    {
+        padding: 0px 0px 0px 0px;
+    }
+
+    /* #fab
     {
 		bottom:2%;
 		right:2%;
