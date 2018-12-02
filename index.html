@@ -11,7 +11,49 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-deep_orange.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-</head>
+    <style>
+    .navbar{
+    max-width:1000px;
+    margin:auto;
+    margin-top:5px; 
+    }
+    .menus{
+    padding:20px;
+    background:#ffb94a;
+    box-shadow:15px 15px 5px #4d021b;
+    float:left;
+    margin:15px;
+    width:130px;
+    text-align:center;
+    }
+    a{
+    text-decoration:none;
+    font-size:20px;
+    font-family:serif;
+    color:black;
+    font-weight:bold;
+    }
+    .menus:hover{
+    background:black;
+    transistion:5s;
+    -webkit-trasition:15s;
+    -moz-trasition:15s;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    }
+    a:hover{
+    color:lightblue;
+    transistion:1s;
+    -webkit-trasition:1s;
+    -moz-trasition:1s;
+    }
+    botton{
+    background:lightblue;
+    }
+    
+    </style>
+    </head>
 
 <body>
     <div id="bg"></div>
@@ -23,13 +65,30 @@
                   <a href="#">About</a>
         </div> -->
 
-    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="topNavigationBar">
+    <!--<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="topNavigationBar">
         <div class="mdl-tabs__tab-bar">
             <a href="#" class="mdl-tabs__tab is-active">Home</a>
             <a href="#" class="mdl-tabs__tab">Team</a>
             <a href="#" class="mdl-tabs__tab">Events</a>
             <a href="#" class="mdl-tabs__tab">About</a>
-        </div>
+        </div>-->
+        <fieldset>
+            
+        
+
+<div class="item animated bounceInDown"></div>
+<div class ="navbar">
+
+<div class="menus"><a href ="#">About</a></div>
+<div class="menus"><a href ="#">Events</a></div>
+
+<div class="menus"><a href ="#">Team</a></div>
+<div class="menus"><a href ="#">Home</a></div>
+
+</div>
+</fieldset>
+
+
 
         <div class="mdl-tabs__panel is-active" id="home" href="./index.html">
             <header>
