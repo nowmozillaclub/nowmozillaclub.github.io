@@ -145,6 +145,7 @@ hr {
 ul {
     display: flex;
     position: relative;
+    overflow: auto;
 }
 
 ul li {
