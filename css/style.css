@@ -75,6 +75,7 @@ a {
     margin-top: 15px;
     font-size: 17px;
     color: #37474f;
+    line-height: 1.4;
 }
 
 #about_card
@@ -89,11 +90,6 @@ a {
 #about_card>.tab {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-#about_card>.tab>.title {
-    font-size: 16px;
-    color: #ff6611;
 }
 
 .title i {
@@ -118,10 +114,17 @@ a {
     margin-bottom: 3px;
 }
 
+#about_card>.tab>.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ff6611;
+}
+
 #about_card .element .info {
     font-family: 'Roboto Mono', monospace;
     color: #37474f;
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 1.4;
 }
 
 #contact_card
