@@ -315,9 +315,8 @@ ul li:nth-child(5) a:hover .fab {
     .card {
         width: 75%;
     }
-    
-    #contact_card
-    {
+
+    #contact_card {
         padding: 5px 20px 5px 70px;
     }
 
@@ -332,9 +331,8 @@ ul li:nth-child(5) a:hover .fab {
     .card {
         width: 90%;
     }
-    
-    #contact_card
-    {
+
+    #contact_card {
         padding: 0px 0px 0px 0px;
     }
 
