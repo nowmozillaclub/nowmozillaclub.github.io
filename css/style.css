@@ -7,8 +7,10 @@ light text: #cfd8dc */
     box-sizing: border-box;
 }
 
-body /*not working for some reason with Bootstrap, so edit the inline CSS instead*/
-{
+body
+
+/*not working for some reason with Bootstrap, so edit the inline CSS instead*/
+    {
     margin: 0;
     padding: 0;
     color: #37474f;
