@@ -1,35 +1,18 @@
 /*NOW colors for reference:
 yellow: #ffb94a
-orange: #ff6611 */
+orange: #ff6611
+dark text: #37474f
+light text: #cfd8dc */
 * {
     box-sizing: border-box;
-}
-
-.topNavigationBar {
-    color: white;
 }
 
 body {
     margin: 0;
     padding: 0;
-    color: #212121;
+    color: #37474f;
     background-color: #ffb94a;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.topNavigationBar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Add a color to the active/current link */
-.topNavigationBar a.active {
-    background-color: #ff6611;
-    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -54,14 +37,14 @@ a {
     {
     width: 700px;
     margin: 0 auto;
-    color: #212121;
+    color: #37474f;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
 
-#quick_card
+#title_card
 
 /*the card with the name and photo*/
     {
@@ -70,7 +53,7 @@ a {
     text-align: center;
 }
 
-#quick_card #photo {
+#title_card #photo {
     height: 100px;
     width: 100px;
     border-radius: 5px;
@@ -78,24 +61,24 @@ a {
     overflow: auto;
 }
 
-#quick_card #name {
+#title_card #name {
     font-weight: normal;
     margin-top: 20px;
     font-size: 25px;
-    color: #212121;
+    color: #37474f;
 }
 
-#quick_card #description {
+#title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     margin-top: 15px;
     font-size: 17px;
-    color: #616161;
+    color: #37474f;
 }
 
 #about_card
 
-/*the card with the cool info*/
+/*self explanatory*/
     {
     position: relative;
     padding: 15px 32px 8px 32px;
@@ -128,16 +111,26 @@ a {
 }
 
 #about_card .element .name {
-    font-family: 'Quicksand', sans-serif;
-    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    color: #37474f;
     font-size: 30px;
     margin-bottom: 3px;
 }
 
 #about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-    color: #616161;
+    color: #37474f;
     font-size: 14px;
+}
+
+#contact_card
+
+/*social links*/
+    {
+    position: relative;
+    padding: 10px 10px 10px 150px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 hr {
@@ -148,68 +141,6 @@ hr {
     border: 0;
 }
 
-#contact_card
-
-/*the card with the contact links*/
-    {
-    position: relative;
-    padding: 10px 10px 10px 150px;
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-/* #contact_card>.tab {
-    margin-top: 3px;
-    margin-bottom: 8px;
-}
-
-#contact_card>.tab>.title {
-    font-size: 16px;
-    color: #ff6611;
-}
-
-#contact_card>.tab>.content {
-    padding-top: 10px;
-    text-align: center;
-}
-
-#contact_card>.tab>.content>.contacts {
-    margin: 0 20px 0 20px;
-    display: inline-block;
-    font-size: 14px;
-    color: #212121;
-} 
-
-#contact_card a {
-    color: #616161;
-    text-decoration: none;
-} */
-/* #fab
-{
-	position:fixed;
-	width:60px;
-	height:60px;
-	line-height: 60px;
-	text-align:center;
-	background-color:#03a9f4;
-	border-radius:99px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-}
-
-#fab i
-{
-	color:#fff;
-	font-size:22px;
-}
-
-@media (min-width: 961px)
-{
-	#fab
-    {
-		top:calc(25% - 30px);
-		right:calc((100% - 550px)/4 - 30px);
-	}
-} */
 ul {
     display: flex;
     position: relative;
@@ -221,7 +152,7 @@ ul li {
 
 ul li a
 
-/*For social buttons */
+/*for social buttons */
     {
     width: 50px;
     height: 50px;
@@ -240,7 +171,7 @@ ul li a
 
 ul li a .fab {
     position: relative;
-    color: #262626;
+    color: #37474f;
     transition: .5s;
     z-index: 3;
 }
@@ -266,7 +197,7 @@ ul li:nth-child(1) a:before {
 }
 
 ul li:nth-child(1) a:hover .fab {
-    /*For social buttons when hovered */
+    /*for Facebook buttons when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
@@ -276,7 +207,7 @@ ul li:nth-child(2) a:before {
 }
 
 ul li:nth-child(2) a:hover .fab {
-    /*For social buttons when hovered */
+    /*for Messenger button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -286,7 +217,7 @@ ul li:nth-child(3) a:before {
 }
 
 ul li:nth-child(3) a:hover .fab {
-    /*For social buttons when hovered */
+    /*for Instagram button when hovered */
     color: #fff;
     transform: rotateZ(360deg);
 }
@@ -296,7 +227,7 @@ ul li:nth-child(4) a:before {
 }
 
 ul li:nth-child(4) a:hover .fab {
-    /*For social buttons when hovered */
+    /*for Twitter button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -306,12 +237,15 @@ ul li:nth-child(5) a:before {
 }
 
 ul li:nth-child(5) a:hover .fab {
-    /*For social buttons when hovered */
+    /*for GitHub button when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
 
-@media (min-width: 481px) and (max-width: 960px) {
+@media (min-width: 481px) and (max-width: 960px)
+
+/*to optimize for tablets*/
+    {
     .card {
         width: 75%;
     }
@@ -319,15 +253,12 @@ ul li:nth-child(5) a:hover .fab {
     #contact_card {
         padding: 5px 20px 5px 70px;
     }
-
-    /* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px)
+
+/*to optimize for mobiles*/
+    {
     .card {
         width: 90%;
     }
@@ -335,10 +266,4 @@ ul li:nth-child(5) a:hover .fab {
     #contact_card {
         padding: 0px 0px 0px 0px;
     }
-
-    /* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
 }
