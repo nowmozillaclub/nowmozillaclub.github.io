@@ -1,3 +1,4 @@
+/* Add only the required CSS from css/bootstrap-material-design.css in this file */
 /*NOW colors for reference:
 yellow: #ffb94a
 orange: #ff6611
@@ -7,10 +8,7 @@ light text: #cfd8dc */
     box-sizing: border-box;
 }
 
-body
-
-/*not working for some reason with Bootstrap, so edit the inline CSS instead*/
-    {
+body {
     margin: 0;
     padding: 0;
     color: #37474f;
@@ -34,7 +32,7 @@ a {
     overflow: auto;
 }
 
-.material_card
+.card
 
 /*material shadow card*/
     {
@@ -270,3 +268,5 @@ ul li:nth-child(5) a:hover .fab {
         padding: 0px 0px 0px 0px;
     }
 }
+
+/*copy paste raw Bootstrap MD CSS is here*/
