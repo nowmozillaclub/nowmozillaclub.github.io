@@ -7,7 +7,8 @@ light text: #cfd8dc */
     box-sizing: border-box;
 }
 
-body {
+body /*not working for some reason with Bootstrap, so edit the inline CSS instead*/
+{
     margin: 0;
     padding: 0;
     color: #37474f;
@@ -31,7 +32,7 @@ a {
     overflow: auto;
 }
 
-.card
+.material_card
 
 /*material shadow card*/
     {

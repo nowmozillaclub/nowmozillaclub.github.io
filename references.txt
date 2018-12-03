@@ -10,6 +10,8 @@ MDL components: https://getmdl.io/components/index.html
 
 MD Bootstrap: https://fezvrasta.github.io/bootstrap-material-design/
 
+MD Cards: https://fezvrasta.github.io/bootstrap-material-design/docs/4.0/bootstrap-components/card/
+
 Use the following CSS rules to specify these font families:
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
