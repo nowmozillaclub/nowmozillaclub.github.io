@@ -13,7 +13,7 @@ body {
     padding: 0;
     color: #37474f;
     background-color: #ffb94a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Product Sans', sans-serif;
 }
 
 a {
@@ -109,14 +109,14 @@ a {
 }
 
 #about_card .element .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Product Sans', sans-serif;
     color: #37474f;
     font-size: 30px;
     margin-bottom: 3px;
 }
 
 #about_card>.tab>.title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Product Sans', sans-serif;
     font-size: 15px;
     color: #ff6611;
 }
