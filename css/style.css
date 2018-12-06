@@ -4,21 +4,12 @@ yellow: #ffb94a
 orange: #ff6611
 dark text: #37474f
 light text: #cfd8dc */
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
     color: #37474f;
     background-color: #ffb94a;
-    font-family: 'Product Sans', sans-serif;
-}
-
-a {
-    color: #2196F3;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 #bg {
@@ -32,13 +23,9 @@ a {
     overflow: auto;
 }
 
-.card
-
-/*material shadow card*/
-    {
+.card {
     width: 700px;
     margin: 0 auto;
-    color: #37474f;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
@@ -46,10 +33,7 @@ a {
     text-align: center;
 }
 
-#title_card
-
-/*the card with the name and photo*/
-    {
+#title_card {
     padding: 50px;
     margin-top: 10vh;
     text-align: center;
@@ -64,25 +48,21 @@ a {
 }
 
 #title_card #name {
+    font-family: 'Product Sans', sans-serif;
     font-weight: normal;
-    margin-top: 20px;
     font-size: 25px;
-    color: #37474f;
+    margin-top: 20px;
 }
 
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    margin-top: 15px;
     font-size: 17px;
-    color: #37474f;
     line-height: 1.4;
+    margin-top: 15px;
 }
 
-#about_card
-
-/*self explanatory*/
-    {
+#about_card {
     position: relative;
     padding: 15px 32px 8px 32px;
     margin-top: 22px;
@@ -109,34 +89,26 @@ a {
 }
 
 #about_card .element .name {
-    font-family: 'Product Sans', sans-serif;
-    color: #37474f;
     font-size: 30px;
     margin-bottom: 3px;
 }
 
 #about_card>.tab>.title {
-    font-family: 'Product Sans', sans-serif;
     font-size: 15px;
     color: #ff6611;
 }
 
 #about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-    color: #37474f;
     font-size: 17px;
     line-height: 1.4;
 }
 
-#contact_card
-
-/*social links*/
-    {
+#contact_card {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    /*padding: 25px 10px 10px 180px;*/
     margin-top: 25px;
     margin-bottom: 50px;
 }
@@ -165,10 +137,7 @@ ul li {
     list-style: none;
 }
 
-ul li a
-
-/*for social buttons */
-    {
+ul li a {
     width: 50px;
     height: 50px;
     background: #fff;
@@ -198,7 +167,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
+    background: #37474f;
     transition: .5s;
     z-index: 2;
 }
@@ -212,7 +181,6 @@ ul li:nth-child(1) a:before {
 }
 
 ul li:nth-child(1) a:hover .fab {
-    /*for Facebook buttons when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
@@ -222,7 +190,6 @@ ul li:nth-child(2) a:before {
 }
 
 ul li:nth-child(2) a:hover .fab {
-    /*for Messenger button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -232,7 +199,6 @@ ul li:nth-child(3) a:before {
 }
 
 ul li:nth-child(3) a:hover .fab {
-    /*for Instagram button when hovered */
     color: #fff;
     transform: rotateZ(360deg);
 }
@@ -242,7 +208,6 @@ ul li:nth-child(4) a:before {
 }
 
 ul li:nth-child(4) a:hover .fab {
-    /*for Twitter button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -252,37 +217,26 @@ ul li:nth-child(5) a:before {
 }
 
 ul li:nth-child(5) a:hover .fab {
-    /*for GitHub button when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
 
-@media (min-width: 481px) and (max-width: 960px)
-
-/*to optimize for tablets*/
-    {
+@media (min-width: 481px) and (max-width: 960px) {
     .card {
         width: 75%;
     }
 
     #contact_card ul {
-        /*padding: 15px 20px 5px 80px;*/
         padding: 10px;
     }
 }
 
-@media (max-width: 480px)
-
-/*to optimize for mobiles*/
-    {
+@media (max-width: 480px) {
     .card {
         width: 90%;
     }
 
     #contact_card ul {
-        /*padding: 15px 0px 0px 25px;*/
         padding: 10px;
     }
 }
-
-/*copy paste raw Bootstrap MD CSS is here*/
