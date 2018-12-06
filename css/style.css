@@ -265,11 +265,6 @@ ul li:nth-child(5) a:hover .fab {
         width: 75%;
     }
 
-    #contact_card {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #contact_card ul {
         /*padding: 15px 20px 5px 80px;*/
         padding: 10px;
