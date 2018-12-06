@@ -28,7 +28,7 @@ a {
     height: 30%;
     top: 0;
     background-color: #ff6611;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
@@ -41,7 +41,7 @@ a {
     color: #37474f;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
@@ -58,7 +58,7 @@ a {
     height: 100px;
     width: 100px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
@@ -139,7 +139,6 @@ a {
     margin-top: 25px;
     margin-bottom: 50px;
 }
-
 
 #contact_card ul {
     margin-bottom: 0;
