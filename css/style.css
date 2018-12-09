@@ -125,6 +125,34 @@ body {
     padding: 25px;
 }
 
+#team_card {
+    width: 250px;
+    padding: 10px;
+    margin-top: 10vh;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#team_card #photo {
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+#team_card #name {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#team_card #description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+}
+
 hr {
     width: 60%;
     color: #E0E0E0;
