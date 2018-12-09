@@ -130,12 +130,12 @@ body {
     padding: 10px;
     margin-top: 10vh;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 #team_card #photo {
-    height: 180px;
-    width: 180px;
+    height: 300px;
+    width: 200px;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
@@ -279,5 +279,21 @@ ul li:nth-child(5) a:hover .fab {
 
     #contact_card ul {
         padding: 10px;
+    }
+
+    #team_card {
+        width: 250px;
+        padding: 10px;
+        margin-top: 10vh;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    #team_card #photo {
+        height: 300px;
+        width: 200px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+        overflow: auto;
     }
 }
