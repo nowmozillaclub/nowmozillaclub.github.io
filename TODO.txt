@@ -1,6 +1,3 @@
 Embed tweets/posts/repos etc.
-Make UI less white
-Put name of college on Home section
 Head of committee
 Privacy policy
-WTAF is open source?

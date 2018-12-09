@@ -95,6 +95,7 @@ body {
 
 #about_card>.tab>.title {
     font-size: 16px;
+    padding-bottom: 8px;
     color: #ff6611;
 }
 
