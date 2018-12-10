@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-    width: 700px;
+    width: 1200px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 5px;
@@ -48,7 +48,7 @@ body {
 }
 
 #title_card #name {
-    font-family: 'Product Sans', sans-serif;
+    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
     font-size: 25px;
     margin-top: 20px;
@@ -57,7 +57,7 @@ body {
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4;
     margin-top: 15px;
 }
@@ -94,14 +94,21 @@ body {
 }
 
 #about_card>.tab>.title {
-    font-size: 15px;
+    font-size: 16px;
+    padding-bottom: 8px;
     color: #ff6611;
 }
 
 #about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4;
+    text-align: left;
+}
+
+#about_card #slogan {
+    font-style: italic;
+    text-align: center;
 }
 
 #contact_card {
@@ -116,6 +123,34 @@ body {
 #contact_card ul {
     margin-bottom: 0;
     padding: 25px;
+}
+
+#team_card {
+    width: 250px;
+    padding: 10px;
+    margin-top: 10vh;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#team_card #photo {
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+#team_card #name {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#team_card #description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 hr {
@@ -221,6 +256,12 @@ ul li:nth-child(5) a:hover .fab {
     transform: rotateY(360deg);
 }
 
+@media (min-width: 961px) and (max-width: 1440px) {
+    .card {
+        width: 60%;
+    }
+}
+
 @media (min-width: 481px) and (max-width: 960px) {
     .card {
         width: 75%;
@@ -238,5 +279,21 @@ ul li:nth-child(5) a:hover .fab {
 
     #contact_card ul {
         padding: 10px;
+    }
+
+    #team_card {
+        width: 250px;
+        padding: 10px;
+        margin-top: 10vh;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    #team_card #photo {
+        height: 300px;
+        width: 200px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+        overflow: auto;
     }
 }
