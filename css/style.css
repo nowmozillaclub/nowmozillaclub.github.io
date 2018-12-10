@@ -126,22 +126,22 @@ body {
 }
 
 #team_card {
-    width: 250px;
-    padding: 10px;
-    margin-top: 10vh;
+    width: 290px;
+    padding: 5px;
+    margin-top: 5vh;
     text-align: center;
     padding-top: 25px;
 }
 
 #team_card #photo {
-    height: 300px;
-    width: 200px;
+    height: 345px;
+    width: 230px;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
-#team_card #name {
+/* #team_card #name {
     font-weight: normal;
     font-size: 20px;
     margin-top: 20px;
@@ -151,8 +151,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
-}
-
+} */
 hr {
     width: 60%;
     color: #E0E0E0;
@@ -282,18 +281,12 @@ ul li:nth-child(5) a:hover .fab {
     }
 
     #team_card {
-        width: 250px;
-        padding: 10px;
-        margin-top: 10vh;
-        text-align: center;
+        width: 300px;
         padding-top: 25px;
     }
 
     #team_card #photo {
-        height: 300px;
-        width: 200px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
-        overflow: auto;
+        height: 350px;
+        width: 240px;
     }
 }
