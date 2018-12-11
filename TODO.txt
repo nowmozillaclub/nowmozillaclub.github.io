@@ -3,4 +3,5 @@ Privacy policy
 Savishkar event
 Hover effects
 Animations
-Apoorva Singh (and some others) GitHub links broken
+Apoorva Singh, Jay Alaknure, Varun Khatri (and some others) GitHub links broken
+Sort team member cards
