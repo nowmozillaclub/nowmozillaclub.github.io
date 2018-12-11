@@ -4,21 +4,12 @@ yellow: #ffb94a
 orange: #ff6611
 dark text: #37474f
 light text: #cfd8dc */
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
     color: #37474f;
     background-color: #ffb94a;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    color: #2196F3;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 #bg {
@@ -28,27 +19,21 @@ a {
     height: 30%;
     top: 0;
     background-color: #ff6611;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
-.card
-
-/*material shadow card*/
-    {
-    width: 700px;
+.card {
+    width: 1200px;
     margin: 0 auto;
-    color: #37474f;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
+    text-align: center;
 }
 
-#title_card
-
-/*the card with the name and photo*/
-    {
+#title_card {
     padding: 50px;
     margin-top: 10vh;
     text-align: center;
@@ -58,30 +43,26 @@ a {
     height: 100px;
     width: 100px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
 #title_card #name {
+    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
-    margin-top: 20px;
     font-size: 25px;
-    color: #37474f;
+    margin-top: 20px;
 }
 
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    margin-top: 15px;
-    font-size: 17px;
-    color: #37474f;
+    font-size: 16px;
     line-height: 1.4;
+    margin-top: 15px;
 }
 
-#about_card
-
-/*self explanatory*/
-    {
+#about_card {
     position: relative;
     padding: 15px 32px 8px 32px;
     margin-top: 22px;
@@ -108,33 +89,82 @@ a {
 }
 
 #about_card .element .name {
-    font-family: 'Roboto', sans-serif;
-    color: #37474f;
     font-size: 30px;
     margin-bottom: 3px;
 }
 
 #about_card>.tab>.title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    padding-bottom: 8px;
     color: #ff6611;
 }
 
 #about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-    color: #37474f;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4;
+    text-align: left;
 }
 
-#contact_card
+#about_card #slogan {
+    font-style: italic;
+    text-align: center;
+}
 
-/*social links*/
-    {
+#contact_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    padding: 25px 10px 10px 180px;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+#contact_card ul {
+    margin-bottom: 0;
+    padding: 25px;
+}
+
+#team_card {
+    width: 290px;
+    padding: 5px;
+    margin-top: 5vh;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#team_card #photo {
+    height: 345px;
+    width: 230px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+/* #team_card #name {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#team_card #description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+} */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
 }
 
 hr {
@@ -156,10 +186,7 @@ ul li {
     list-style: none;
 }
 
-ul li a
-
-/*for social buttons */
-    {
+ul li a {
     width: 50px;
     height: 50px;
     background: #fff;
@@ -189,7 +216,7 @@ ul li a:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
+    background: #37474f;
     transition: .5s;
     z-index: 2;
 }
@@ -203,7 +230,6 @@ ul li:nth-child(1) a:before {
 }
 
 ul li:nth-child(1) a:hover .fab {
-    /*for Facebook buttons when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
@@ -213,7 +239,6 @@ ul li:nth-child(2) a:before {
 }
 
 ul li:nth-child(2) a:hover .fab {
-    /*for Messenger button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -223,7 +248,6 @@ ul li:nth-child(3) a:before {
 }
 
 ul li:nth-child(3) a:hover .fab {
-    /*for Instagram button when hovered */
     color: #fff;
     transform: rotateZ(360deg);
 }
@@ -233,7 +257,6 @@ ul li:nth-child(4) a:before {
 }
 
 ul li:nth-child(4) a:hover .fab {
-    /*for Twitter button when hovered */
     color: #fff;
     transform: rotateX(360deg);
 }
@@ -243,35 +266,42 @@ ul li:nth-child(5) a:before {
 }
 
 ul li:nth-child(5) a:hover .fab {
-    /*for GitHub button when hovered */
     color: #fff;
     transform: rotateY(360deg);
 }
 
-@media (min-width: 481px) and (max-width: 960px)
+@media (min-width: 961px) and (max-width: 1440px) {
+    .card {
+        width: 60%;
+    }
+}
 
-/*to optimize for tablets*/
-    {
+@media (min-width: 481px) and (max-width: 960px) {
     .card {
         width: 75%;
     }
 
-    #contact_card {
-        padding: 15px 20px 5px 80px;
+    #contact_card ul {
+        padding: 10px;
     }
 }
 
-@media (max-width: 480px)
-
-/*to optimize for mobiles*/
-    {
+@media (max-width: 480px) {
     .card {
         width: 90%;
     }
 
-    #contact_card {
-        padding: 15px 0px 0px 25px;
+    #contact_card ul {
+        padding: 10px;
+    }
+
+    #team_card {
+        width: 300px;
+        padding-top: 25px;
+    }
+
+    #team_card #photo {
+        height: 350px;
+        width: 240px;
     }
 }
-
-/*copy paste raw Bootstrap MD CSS is here*/

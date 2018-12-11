@@ -14,8 +14,34 @@ MD Cards: https://fezvrasta.github.io/bootstrap-material-design/docs/4.0/bootstr
 
 Use the following CSS rules to specify these font families:
 font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'Roboto Mono', monospace;
 
-Hi this is nirmit
+font-family: 'Roboto Mono', monospace;
+font-family: 'Product Sans', sans-serif;
+
+/* Ripple effect CSS*/
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
