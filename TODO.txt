@@ -1,3 +1,5 @@
 Embed tweets/posts/repos etc.
 Privacy policy
 Savishkar event
+Hover effects
+Animations
