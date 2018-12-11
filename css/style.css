@@ -143,8 +143,9 @@ body {
 
 #project_card {
     padding: 50px;
-    margin-top: 10vh;
     text-align: center;
+    position: relative;
+    margin-top: 22px;
 }
 
 #project_card #photo {
@@ -171,7 +172,7 @@ body {
 
 .shadowed {
     -webkit-filter: drop-shadow(px 5px 5px #222);
-    filter: drop-shadow(1px 1px 2px #100);
+    filter: drop-shadow(0.5px 0.5px 2px #100);
 }
 
 .ripple {
