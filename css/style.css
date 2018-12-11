@@ -33,6 +33,44 @@ body {
     text-align: center;
 }
 
+.tab {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title i {
+    position: relative;
+    left: -10px;
+}
+
+.tab>.content {
+    padding: 5px 20px 5px 20px;
+    position: relative;
+}
+
+.element {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.element .name {
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.tab>.title {
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: #ff6611;
+}
+
+.element .info {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+
 #title_card {
     padding: 50px;
     margin-top: 10vh;
@@ -54,7 +92,7 @@ body {
     margin-top: 20px;
 }
 
-#title_card #description {
+#description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
@@ -66,44 +104,6 @@ body {
     position: relative;
     padding: 15px 32px 8px 32px;
     margin-top: 22px;
-}
-
-#about_card>.tab {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.title i {
-    position: relative;
-    left: -10px;
-}
-
-#about_card>.tab>.content {
-    padding: 5px 20px 5px 20px;
-    position: relative;
-}
-
-#about_card .element {
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-#about_card .element .name {
-    font-size: 30px;
-    margin-bottom: 3px;
-}
-
-#about_card>.tab>.title {
-    font-size: 16px;
-    padding-bottom: 8px;
-    color: #ff6611;
-}
-
-#about_card .element .info {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    line-height: 1.4;
-    text-align: left;
 }
 
 #about_card #slogan {
@@ -148,8 +148,8 @@ body {
 }
 
 #project_card #photo {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border-radius: 5px;
     overflow: auto;
 }
@@ -198,7 +198,7 @@ hr {
     border: 0;
 }
 */
-.project_ruler {
+.ruler {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
