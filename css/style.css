@@ -126,7 +126,8 @@ body {
 }
 
 #team_card {
-    width: 290px;
+    height: 325px;
+    width: 230px;
     padding: 5px;
     margin-top: 5vh;
     text-align: center;
