@@ -189,12 +189,22 @@ body {
     transition: background 0s;
 }
 
+/*
 hr {
     width: 60%;
     color: #E0E0E0;
     background-color: #E0E0E0;
     height: 1px;
     border: 0;
+}
+*/
+.project_ruler {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
 }
 
 ul {
