@@ -141,17 +141,39 @@ body {
     overflow: auto;
 }
 
-/* #team_card #name {
+#project_card {
+    padding: 50px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#project_card #photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#project_card #name {
+    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
 }
 
-#team_card #description {
+#project_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
-} */
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+.shadowed {
+    -webkit-filter: drop-shadow(px 5px 5px #222);
+    filter: drop-shadow(1px 1px 2px #100);
+}
+
 .ripple {
     background-position: center;
     transition: background 0.8s;
@@ -167,12 +189,22 @@ body {
     transition: background 0s;
 }
 
+/*
 hr {
     width: 60%;
     color: #E0E0E0;
     background-color: #E0E0E0;
     height: 1px;
     border: 0;
+}
+*/
+.project_ruler {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
 }
 
 ul {
