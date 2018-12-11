@@ -135,7 +135,7 @@ body {
 
 #team_card #photo {
     height: 250px;
-    width: 140px;
+    width: 200px;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
