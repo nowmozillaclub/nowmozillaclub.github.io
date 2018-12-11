@@ -139,6 +139,65 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
+    position: relative;
+    bottom: 4px;
+}
+
+#team_card #github_profile {
+    position: relative;
+    overflow: auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    z-index: 0;
+}
+
+#team_card #github_profile a {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 45px;
+    font-size: 28px;
+    margin: 0 6px;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1
+}
+
+#team_card #github_profile a .fab {
+    position: relative;
+    color: #37474f;
+    transition: .5s;
+    z-index: 3;
+}
+
+#team_card #github_profile a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #37474f;
+    transition: .5s;
+    z-index: 2;
+}
+
+#team_card #github_profile a:hover:before {
+    top: 0;
+}
+
+#team_card #github_profile a:before {
+    background: #333;
+}
+
+#team_card #github_profile a:hover .fab {
+    color: #fff;
+    transform: rotateY(360deg);
 }
 
 #project_card {
