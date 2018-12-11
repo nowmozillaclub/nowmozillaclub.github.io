@@ -126,17 +126,16 @@ body {
 }
 
 #team_card {
-    height: 325px;
-    width: 230px;
+    width: 290px;
     padding: 5px;
-    margin-top: 5vh;
+    margin-top: 2vh;
     text-align: center;
     padding-top: 25px;
 }
 
 #team_card #photo {
-    height: 250px;
-    width: 200px;
+    height: 345px;
+    width: 230px;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
@@ -297,12 +296,18 @@ ul li:nth-child(5) a:hover .fab {
     }
 
     #team_card {
-        width: 300px;
+        width: 330px;
         padding-top: 25px;
+        position: relative;
+        left: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; */
     }
 
     #team_card #photo {
-        height: 350px;
-        width: 240px;
+        height: 400px;
+        width: 280px;
     }
 }
