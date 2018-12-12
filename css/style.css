@@ -133,6 +133,7 @@ body {
     padding-top: 25px;
 }
 
+
 #team_card #photo {
     height: 345px;
     width: 230px;
@@ -222,6 +223,32 @@ body {
 }
 
 #project_card #description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+#event_card #photo {
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
+    overflow: auto;
+     margin-top:10vh;
+      margin-bottom:2vh;
+}
+#event_card{
+    
+  margin-top:10vh;
+}
+#eventt_card #name {
+    /* font-family: 'Product Sans', sans-serif; */
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#event_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
