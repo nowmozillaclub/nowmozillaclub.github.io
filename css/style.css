@@ -73,7 +73,7 @@ body {
 
 #title_card {
     padding: 50px;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -390,6 +390,10 @@ ul li:nth-child(5) a:hover .fab {
 @media (max-width: 480px) {
     .card {
         width: 90%;
+    }
+    
+    #title_card {
+        margin-top: 25px;
     }
 
     #contact_card ul {
