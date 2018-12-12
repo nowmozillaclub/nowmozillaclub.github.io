@@ -13,6 +13,9 @@
     <link href="css/material.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Product+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/bootstrap-material-design.js"></script>
+    <script src="./js/bootstrap-material-design.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
@@ -27,10 +30,34 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown">
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./index.html">Home <span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./team.html">Team <span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./project.html">Projects <span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+                    </li>
+
+                    </li>
+                </ul>
+
+
+                <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+
                 <a class="nav-item nav-link" href="./team.html">Team</a>
+
                 <a class="nav-item nav-link" href="./project.html">Projects</a>
+
                 <a class="nav-item nav-link" href="#">Events</a>
+
+
             </div>
         </div>
     </nav>
