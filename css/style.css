@@ -134,7 +134,6 @@ body {
     padding-top: 25px;
 }
 
-
 #team_card #photo {
     height: 345px;
     width: 230px;
@@ -146,6 +145,7 @@ body {
 }
 
 #team_card #github_profile {
+    margin-top: 7px;
     position: relative;
     overflow: auto;
     padding: 0;
@@ -225,7 +225,6 @@ body {
 }
 
 #project_card #name {
-    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
     font-size: 25px;
     margin-top: 20px;
@@ -238,23 +237,33 @@ body {
     line-height: 1.4;
     margin-top: 15px;
 }
-#event_card #photo {
-    height: 400px;
-    width: 600px;
+
+#event_card {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#event_card #landscape_photo {
+    height: 310px;
+    width: 490px;
     border-radius: 5px;
     overflow: auto;
-     margin-top:10vh;
-      margin-bottom:2vh;
 }
-#event_card
-{
-    margin-top: 25px;
+
+#event_card #portrait_photo {
+    height: 420px;
+    width: 280px;
+    border-radius: 5px;
+    overflow: auto;
 }
+
 #event_card #name {
-    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
     font-size: 25px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 #event_card #description {
@@ -262,7 +271,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.4;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .shadowed {
@@ -432,13 +441,23 @@ ul li:nth-child(5) a:hover .fab {
     #contact_card ul {
         padding: 10px;
     }
+    
+    #event_card #landscape_photo {
+        height: 220px;
+        width: 350px;
+    }
+    
+    #event_card #portrait_photo {
+        height: 360px;
+        width: 260px;
+    }
 }
 
 @media (max-width: 480px) {
     .card {
         width: 90%;
     }
-    
+
     #title_card {
         margin-top: 25px;
     }
@@ -461,5 +480,15 @@ ul li:nth-child(5) a:hover .fab {
     #team_card #photo {
         height: 400px;
         width: 280px;
+    }
+    
+    #event_card #landscape_photo {
+        height: 185px;
+        width: 270px;
+    }
+    
+    #event_card #portrait_photo {
+        height: 330px;
+        width: 250px;
     }
 }
