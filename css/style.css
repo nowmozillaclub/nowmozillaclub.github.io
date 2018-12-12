@@ -1,342 +1,405 @@
+/* Add only the required CSS from css/bootstrap-material-design.css in this file */
 /*NOW colors for reference:
 yellow: #ffb94a
-orange: #ff6611 */
-
-*
-{
-	box-sizing: border-box;
-}
-.topNavigationBar {
-    background-color:#ffb94a;
-
-    overflow: hidden;
-}
-
-body
-{
-	margin:0;
-	padding:0;
-	color:#212121;
-	background-color:#ffb94a;
-    font-family: 'Quicksand', sans-serif;
+orange: #ff6611
+dark text: #37474f
+light text: #cfd8dc */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #37474f;
+    background-color: #ffb94a;
+    margin: 0;
+    padding: 0;
 }
 
-.topNavigationBar a {
-    float: left;
-    color: #f2f2f2;
+#bg {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    background-color: #ff6611;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.card {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
-ul { /*For social buttons */
+.tab {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title i {
+    position: relative;
+    left: -10px;
+}
+
+.tab>.content {
+    padding: 5px 20px 5px 20px;
+    position: relative;
+}
+
+.element {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.element .name {
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.tab>.title {
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: #ff6611;
+}
+
+.element .info {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+#title_card {
+    padding: 50px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#title_card #photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+#title_card #name {
+    /* font-family: 'Product Sans', sans-serif; */
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+#about_card {
+    position: relative;
+    padding: 15px 32px 8px 32px;
+    margin-top: 22px;
+}
+
+#about_card #slogan {
+    font-style: italic;
+    text-align: center;
+}
+
+#contact_card {
     display: flex;
-    position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
-ul li { /*For social buttons */
-    list-style: none;
+#contact_card ul {
+    margin-bottom: 0;
+    padding: 25px;
 }
 
-ul li a /*For social buttons */
-{
-    width: 80px;
-    height: 80px;
-    background: #fff;
+#team_card {
+    width: 290px;
+    padding: 5px;
+    margin-top: 2vh;
     text-align: center;
-    line-height: 70px;
-    font-size: 35px;
-    margin: 0 10px;
-    display:block;
-    border-radius: 50%;
+    padding-top: 25px;
+}
+
+#team_card #photo {
+    height: 345px;
+    width: 230px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    position: relative;
+    bottom: 4px;
+}
+
+#team_card #github_profile {
+    position: relative;
+    overflow: auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    z-index: 0;
+}
+
+#team_card #github_profile a {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 45px;
+    font-size: 28px;
+    margin: 0 6px;
+    display: block;
+    border-radius: 100%;
     position: relative;
     overflow: hidden;
-    border:3px solid #fff;
-    z-index:1;
-    
+    border: 3px solid #fff;
+    z-index: 1
 }
 
-ul li a .fab{ /*For social buttons */
+#team_card #github_profile a .fab {
     position: relative;
-    color: #262626;
+    color: #37474f;
     transition: .5s;
     z-index: 3;
 }
 
-ul li a:hover .fab{  /*For social buttons when hovered */
-    color:#fff;
-    transform: rotateY(360deg);
-}
-
-ul li a:before
-{
+#team_card #github_profile a:before {
     content: '';
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
+    background: #37474f;
     transition: .5s;
     z-index: 2;
-    
 }
 
-ul li a:hover:before {
-    top:0;
-    
+#team_card #github_profile a:hover:before {
+    top: 0;
 }
 
-ul li:nth-child(1) a:before{
-    background: #3b5999;
-}
-
-ul li:nth-child(2) a:before{
-    background: #0084ff;
-}
-
-ul li:nth-child(3) a:before{
-    background: #e4405f;
-}
-
-ul li:nth-child(4) a:before{
-    background: #55acee;
-}
-
-ul li:nth-child(5) a:before{
+#team_card #github_profile a:before {
     background: #333;
 }
 
-.topNavigationBar a:hover {
-    background-color:#ff6611 ;
-    color: black;
+#team_card #github_profile a:hover .fab {
+    color: #fff;
+    transform: rotateY(360deg);
 }
 
-/* Add a color to the active/current link */
-.topNavigationBar a.active {
-    background-color: #ff6611;
-    color: white;
+#project_card {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: 22px;
 }
 
-a
-{
-	color:#2196F3;
-	text-decoration:none;
+#project_card #photo {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    overflow: auto;
 }
 
-#bg
-{
-	z-index:-1;
-	position:fixed;
-	width:100%;
-	height:30%;
-	top:0;
-	background-color:#ff6611;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
+#project_card #name {
+    /* font-family: 'Product Sans', sans-serif; */
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
-.card /*material shadow card*/
-{
-	width:700px;
-	margin:0 auto;
-	color:#212121;
-	background-color:#fff;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
-}
-
-#quick_card /*the card with the name and photo*/
-{
-	padding:50px;
-	margin-top:10vh;
-	text-align:center;
-}
-
-#quick_card #photo
-{
-	height:100px;
-	width:100px;
-	border-radius:5px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
-}
-
-#quick_card #name
-{
-	font-weight:normal;
-	margin-top:20px;
-	font-size:25px;
-	color:#212121;
-}
-
-#quick_card #description
-{
+#project_card #description {
     font-family: 'Roboto Mono', monospace;
-	font-weight:normal;
-	margin-top:15px;
-	font-size:17px;
-	color:#616161;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
 }
 
-#about_card /*the card with the cool info*/
-{
-	position:relative;
-	padding:15px 32px 8px 32px;
-	margin-top:22px;
+.shadowed {
+    -webkit-filter: drop-shadow(px 5px 5px #222);
+    filter: drop-shadow(0.5px 0.5px 2px #100);
 }
 
-#about_card>.tab
-{
-	margin-top:10px;
-	margin-bottom:10px;
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
 }
 
-#about_card>.tab>.title
-{
-	font-size:16px;
-	color:#ff6611;
+.ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
 }
 
-.title i
-{
-	position:relative;
-	left:-10px;
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
 }
 
-#about_card>.tab>.content
-{
-	padding:5px 20px 5px 20px;
-	position:relative;
+/*
+hr {
+    width: 60%;
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    height: 1px;
+    border: 0;
+}
+*/
+.ruler {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
 }
 
-#about_card .element
-{
-	margin-bottom:5px;
-	margin-top:5px;
+ul {
+    display: flex;
+    position: relative;
+    overflow: auto;
+    padding: 0;
 }
 
-#about_card .element .name
-{
-    font-family: 'Quicksand', sans-serif;
-	color:#212121;
-	font-size:30px;
-	margin-bottom:3px;
+ul li {
+    list-style: none;
 }
 
-#about_card .element .info
-{
-    font-family: 'Roboto Mono', monospace;
-	color:#616161;
-	font-size:14px;
+ul li a {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    margin: 0 6px;
+    display: block;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
 }
 
-hr
-{
-	width:60%;
-	color: #E0E0E0;
-	background-color: #E0E0E0;
-	height:1px;
-	border:0;
+ul li a .fab {
+    position: relative;
+    color: #37474f;
+    transition: .5s;
+    z-index: 3;
 }
 
-#contact_card /*the card with the contact links*/
-{
-	position:relative;
-	padding:100px 90px 15px 30px;
-	margin-top:22px;
-	margin-bottom:40px;
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #37474f;
+    transition: .5s;
+    z-index: 2;
 }
 
-#contact_card>.tab
-{
-	margin-top:3px;
-	margin-bottom:8px;
+ul li a:hover:before {
+    top: 0;
 }
 
-#contact_card>.tab>.title
-{
-	font-size:16px;
-	color:#ff6611;
+ul li:nth-child(1) a:before {
+    background: #3b5999;
 }
 
-#contact_card>.tab>.content
-{
-	padding-top:10px;
-	text-align:center;
+ul li:nth-child(1) a:hover .fab {
+    color: #fff;
+    transform: rotateY(360deg);
 }
 
-#contact_card>.tab>.content>.contacts
-{
-	margin:0 20px 0 20px;
-	display:inline-block;
-	font-size:14px;
-	color:#212121;
+ul li:nth-child(2) a:before {
+    background: #0084ff;
 }
 
-#contact_card a
-{
-	color:#616161;
-	text-decoration:none;
+ul li:nth-child(2) a:hover .fab {
+    color: #fff;
+    transform: rotateX(360deg);
 }
 
-/* #fab
-{
-	position:fixed;
-	width:60px;
-	height:60px;
-	line-height: 60px;
-	text-align:center;
-	background-color:#03a9f4;
-	border-radius:99px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+ul li:nth-child(3) a:before {
+    background: #e4405f;
 }
 
-#fab i
-{
-	color:#fff;
-	font-size:22px;
+ul li:nth-child(3) a:hover .fab {
+    color: #fff;
+    transform: rotateZ(360deg);
 }
 
-@media (min-width: 961px)
-{
-	#fab
-    {
-		top:calc(25% - 30px);
-		right:calc((100% - 550px)/4 - 30px);
-	}
-} */
-
-@media (min-width: 481px) and (max-width: 960px)
-{
-	.card
-    {
-		width:80%;
-	}
-    
-	/* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
+ul li:nth-child(4) a:before {
+    background: #55acee;
 }
 
-@media (max-width: 480px)
-{
-	.card
-    {
-		width:90%;
-	}
-    
-	/* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
+ul li:nth-child(4) a:hover .fab {
+    color: #fff;
+    transform: rotateX(360deg);
+}
+
+ul li:nth-child(5) a:before {
+    background: #333;
+}
+
+ul li:nth-child(5) a:hover .fab {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+@media (min-width: 961px) and (max-width: 1440px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
+    .card {
+        width: 75%;
+    }
+
+    #contact_card ul {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+
+    #contact_card ul {
+        padding: 10px;
+    }
+
+    #team_card {
+        width: 330px;
+        padding-top: 25px;
+        position: relative;
+        left: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; */
+    }
+
+    #team_card #photo {
+        height: 400px;
+        width: 280px;
+    }
 }
