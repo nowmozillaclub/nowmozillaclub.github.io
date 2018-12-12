@@ -143,10 +143,29 @@ sup {
 a {
   color: #37474f;
   text-decoration: none;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects; 
+    display: inline-block;
+}
+a::after
+{
+content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff6611;
+    transition: width .3s;
+}
+
+a:hover::after
+{
+    width: 100%;
+    transition: width .3s;
+}
+
+
   a:hover {
     color: #37474f;
-    text-decoration: underline; }
+     }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
