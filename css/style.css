@@ -73,7 +73,8 @@ body {
 
 #title_card {
     padding: 50px;
-    margin-top: 10vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -103,7 +104,7 @@ body {
 #about_card {
     position: relative;
     padding: 15px 32px 8px 32px;
-    margin-top: 22px;
+    margin-top: 25px;
 }
 
 #about_card #slogan {
@@ -117,7 +118,7 @@ body {
     align-items: center;
     position: relative;
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #contact_card ul {
@@ -128,7 +129,7 @@ body {
 #team_card {
     width: 290px;
     padding: 5px;
-    margin-top: 2vh;
+    margin-top: 25px;
     text-align: center;
     padding-top: 25px;
 }
@@ -204,7 +205,8 @@ body {
     padding: 50px;
     text-align: center;
     position: relative;
-    margin-top: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #project_card #photo {
@@ -227,6 +229,13 @@ body {
     font-size: 16px;
     line-height: 1.4;
     margin-top: 15px;
+}
+
+#project_card .element .credits {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
 }
 
 .shadowed {
