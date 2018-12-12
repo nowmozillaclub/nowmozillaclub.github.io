@@ -294,6 +294,26 @@ hr {
     border: 0;
 }
 */
+.animation {
+    color: #37474f;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.animation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff6611;
+    transition: width .3s;
+}
+
+.animation:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 .ruler {
     display: block;
     margin-top: 0.5em;
