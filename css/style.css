@@ -30,6 +30,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -72,7 +73,7 @@ body {
 }
 
 #title_card {
-    padding: 50px;
+    padding: 50px 25px 50px 25px;
     margin-top: 50px;
     margin-bottom: 25px;
     text-align: center;
@@ -87,7 +88,6 @@ body {
 }
 
 #title_card #name {
-    /* font-family: 'Product Sans', sans-serif; */
     font-weight: normal;
     font-size: 25px;
     margin-top: 20px;
@@ -210,7 +210,7 @@ body {
 }
 
 #project_card {
-    padding: 50px;
+    padding: 50px 25px 50px 25px;
     text-align: center;
     position: relative;
     margin-top: 25px;
@@ -239,7 +239,7 @@ body {
 }
 
 #event_card {
-    padding: 50px;
+    padding: 50px 25px 50px 25px;
     text-align: center;
     position: relative;
     margin-top: 25px;
