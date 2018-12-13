@@ -275,7 +275,7 @@ body {
 }
 
 #news_card {
-    padding: 50px;
+    padding: 50px 25px 50px 25px;
     text-align: center;
     position: relative;
     margin-top: 25px;
