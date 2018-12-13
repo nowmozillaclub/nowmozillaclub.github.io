@@ -274,6 +274,36 @@ body {
     margin-top: 15px;
 }
 
+#news_card {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#news_card #photo {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+#news_card #name {
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#news_card #description {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
 .shadowed {
     -webkit-filter: drop-shadow(px 5px 5px #222);
     filter: drop-shadow(0.5px 0.5px 2px #100);
