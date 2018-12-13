@@ -441,12 +441,12 @@ ul li:nth-child(5) a:hover .fab {
     #contact_card ul {
         padding: 10px;
     }
-    
+
     #event_card #landscape_photo {
         height: 220px;
         width: 350px;
     }
-    
+
     #event_card #portrait_photo {
         height: 360px;
         width: 260px;
@@ -481,12 +481,12 @@ ul li:nth-child(5) a:hover .fab {
         height: 400px;
         width: 280px;
     }
-    
+
     #event_card #landscape_photo {
-        height: 185px;
-        width: 270px;
+        height: 160px;
+        width: 250px;
     }
-    
+
     #event_card #portrait_photo {
         height: 330px;
         width: 250px;
