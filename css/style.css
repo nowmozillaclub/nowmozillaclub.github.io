@@ -521,4 +521,14 @@ ul li:nth-child(5) a:hover .fab {
         height: 330px;
         width: 250px;
     }
+    
+    .page-footer font-small teal pt-4 {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+
 }
