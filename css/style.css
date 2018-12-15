@@ -305,8 +305,8 @@ body {
 }
 
 .shadowed {
-    -webkit-filter: drop-shadow(px 5px 5px #222);
-    filter: drop-shadow(0.5px 0.5px 2px #100);
+    -webkit-filter: drop-shadow(px 5px 5px);
+    filter: drop-shadow(0.5px 0.5px 2px #37474f);
 }
 
 .ripple {
