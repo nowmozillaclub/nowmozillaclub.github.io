@@ -522,14 +522,28 @@ ul li:nth-child(5) a:hover .fab {
         height: 330px;
         width: 250px;
     }
-    
-    .page-footer font-small teal pt-4 {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
 
-}
+    /*--------footer--------*/
+    footer {
+        width: 100%;
+        background-color: #37474f;
+        padding: 60px, 0px;
+    }
+    
+    footer nav{
+        float:right;
+    }
+    
+    footer nav ul li{
+        display: inline-block;
+        margin-left: 20px;
+        list-style: none;
+    }
+    
+    footer nav ul li a {
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 14px;
+        color: #cfd8dc;
+    }
+    
