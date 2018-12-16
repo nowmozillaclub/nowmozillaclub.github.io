@@ -524,13 +524,13 @@ ul li:nth-child(5) a:hover .fab {
     }
 
     /*--------footer--------*/
-#bottom-footer {
+footer {
     width: 100%;
-    background-color: #37474f;
+    background-color: #fff;
     padding: 60px, 0px;
 }
 
-#bottom-footer nav{
+footer nav{
     float:right;
 }
 
@@ -544,6 +544,6 @@ footer nav ul li a {
     font-family: Lato;
     font-weight: 400;
     font-size: 14px;
-    color: #cfd8dc;
+    color: #37474f;
 }
     
