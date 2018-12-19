@@ -426,6 +426,17 @@ ul li:nth-child(5) a:hover .fab {
     line-height: 1.4;
     margin-top: 15px;
 }
+#privacy_card {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 15px;
+    position: relative;
+    padding: 15px 32px 8px 32px;
+    margin-top: 25px;
+    text-align: left;
+}
 
 @media (min-width: 961px) and (max-width: 1440px) {
     .card {
@@ -486,5 +497,5 @@ ul li:nth-child(5) a:hover .fab {
     #event_card #portrait_photo {
         height: 330px;
         width: 250px;
-    }
+    }    
 }
