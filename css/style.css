@@ -10,7 +10,6 @@ ul {
     display: flex;
     position: relative;
     overflow: auto;
-    padding: 0;
 }
 
 ul li {
@@ -66,34 +65,34 @@ ul li:nth-child(1) a:hover .fab {
 }
 
 ul li:nth-child(2) a:before {
-    background: #55acee;
+    background: #e4405f;
 }
 
 ul li:nth-child(2) a:hover .fab {
     color: #fff;
-    transform: rotateX(360deg);
+    transform: rotateZ(360deg);
 }
 
 ul li:nth-child(3) a:before {
-    background: #e4405f;
+    background: #55acee;
 }
 
 ul li:nth-child(3) a:hover .fab {
     color: #fff;
-    transform: rotateZ(360deg);
+    transform: rotateY(360deg);
 }
 
 ul li:nth-child(4) a:before {
-    background: #333;
+    background: #4ec85c;
 }
 
 ul li:nth-child(4) a:hover .fab {
     color: #fff;
-    transform: rotateX(360deg);
+    transform: rotateZ(360deg);
 }
 
 ul li:nth-child(5) a:before {
-    background: #ff6611;
+    background: #333;
 }
 
 ul li:nth-child(5) a:hover .fab {
