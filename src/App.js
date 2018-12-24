@@ -5,6 +5,7 @@ import './App.css';
 
 import Navbar from './layout/Navbar';
 import Content from './layout/Content';
+import Footer from './layout/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         </Helmet>
         <Navbar/>
         <Content/>
+        <Footer/>
       </div>
     );
   }
