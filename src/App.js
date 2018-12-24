@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+
+import './App.css';
+
+import Navbar from './layout/Navbar';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <section className="hero is-fullheight is-dark">
-          <div className="hero-body">
-            <div className="container">
-              <h1 className="title is-1">Network for the Open Web Mozilla Campus Club</h1>
-            </div>
-          </div>
-        </section>
+        <Helmet>
+          <body className="has-navbar-fixed-top"/>
+          <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"/>
+        </Helmet>
+        <Navbar/>
       </div>
     );
   }
