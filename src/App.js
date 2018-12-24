@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import './App.css';
 
 import Navbar from './layout/Navbar';
+import Content from './layout/Content';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"/>
         </Helmet>
         <Navbar/>
+        <Content/>
       </div>
     );
   }
