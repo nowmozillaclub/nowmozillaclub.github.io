@@ -1,0 +1,19 @@
+.Navbar .navbar-item .subtitle .is-hidden-desktop {
+  font-size: 16px;
+}
+
+.Navbar .fa-facebook-f {
+  color: #3b5998;
+}
+
+.Navbar .fa-instagram {
+  color: #c13584;
+}
+
+.Navbar .fa-twitter {
+  color: #1da1f2;
+}
+
+.Navbar .fa-github {
+  color: #333333;
+}
