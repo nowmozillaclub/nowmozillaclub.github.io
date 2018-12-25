@@ -245,6 +245,11 @@ ul li:nth-child(5) a:hover .fab {
     margin-bottom: 25px;
 }
 
+#contact_card #copyright {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
 #contact_card ul {
     margin-bottom: 0;
     padding: 25px;
