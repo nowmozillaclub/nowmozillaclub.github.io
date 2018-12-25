@@ -494,7 +494,7 @@ ul li:nth-child(5) a:hover .fab {
         width: 330px;
         padding-top: 25px;
         position: relative;
-        left: 15px;
+        right: 30px;
     }
 
     #team_card #photo {
