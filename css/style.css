@@ -458,6 +458,10 @@ ul li:nth-child(5) a:hover .fab {
         padding: 10px;
     }
 
+    #contact_card #copyright {
+        width: 300px;
+    }
+
     #event_card #landscape_photo {
         height: 220px;
         width: 350px;
@@ -480,6 +484,10 @@ ul li:nth-child(5) a:hover .fab {
 
     #contact_card ul {
         padding: 10px;
+    }
+
+    #contact_card #copyright {
+        width: 300px;
     }
 
     #team_card {
