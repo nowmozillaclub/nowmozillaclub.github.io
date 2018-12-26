@@ -4,7 +4,7 @@
 
 .Footer li {
   display: inline-block;
-  margin-right: 25px;
+  padding: 0px 5px;
   line-height: 2em;
 }
 
