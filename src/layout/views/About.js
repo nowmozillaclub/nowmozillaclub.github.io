@@ -34,7 +34,7 @@ class About extends Component {
                 Be a part of a powerful <b>network</b> of students dedicated to keeping the internet a global public resource, <b>open</b> and <b>accessible</b> to all.
               </p>
               <p className="subtitle is-3">
-                <NavLink to="/events" className="button is-danger is-large">View Events</NavLink>
+                <NavLink to="/events" className="button is-dark is-large">View Events</NavLink>
               </p>
             </div>
           </div>
