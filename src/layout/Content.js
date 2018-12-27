@@ -4,7 +4,6 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
 import About from './views/About';
 import Events from './views/Events';
-import Projects from './views/Projects';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
 
@@ -16,7 +15,6 @@ class Content extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/events" component={Events}/>
-          <Route path="/projects" component={Projects}/>
           <Route path="/contact" component={Contact}/>
           <Route component={NotFound}/>
         </Switch>
