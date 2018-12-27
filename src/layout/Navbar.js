@@ -82,12 +82,6 @@ class Navbar extends Component {
                     <span className="is-hidden-desktop has-text-grey-light"> &mdash; What we do</span>
                   </span>
                 </NavLink>
-                <NavLink className="navbar-item" onClick={this.toggleMenu} to="/projects">
-                  <span className="subtitle">
-                    <span>Projects</span>
-                    <span className="is-hidden-desktop has-text-grey-light"> &mdash; What we make</span>
-                  </span>
-                </NavLink>
                 <NavLink className="navbar-item" onClick={this.toggleMenu} to="/contact">
                   <span className="subtitle">
                     <span>Contact</span>
