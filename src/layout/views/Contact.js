@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
+  componentWillMount() {
+    window.scroll({top: 0, left: 0, behavior: 'smooth' })
   }
   
   render() {
