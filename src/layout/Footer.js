@@ -18,28 +18,43 @@ class Footer extends Component {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/about">
                       About
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/events">
                       Events
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
-                      Projects
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/gamescript">
+                      GameScript
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/githack">
+                      GitHack
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/android">
+                      Android
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/members">
+                      Members
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/contact">
                       Contact
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
-                      Privacy Policy
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/privacy">
+                      Privacy
                     </NavLink>
                   </li>
                 </ul>
