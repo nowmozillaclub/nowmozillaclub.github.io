@@ -14,10 +14,9 @@ class About extends Component {
             <div className="container">
               <h1 className="title is-1 is-spaced">About Us</h1>
               <p className="subtitle is-3">
-                We are a <b>Mozilla Campus Club</b> at <b>NMIMS MPSTME</b>.
+                Network for the Open Web was founded to serve as a platform for <b>Internet Education</b>.
               </p>
               <p className="subtitle is-3">
-                Network for the Open Web was founded to serve as a platform for <b>Internet Education</b>.
                 We strive to <b>Learn</b>, <b>Build</b> and <b>Advocate</b> for the <b>Open Web</b>.
               </p>
             </div>
