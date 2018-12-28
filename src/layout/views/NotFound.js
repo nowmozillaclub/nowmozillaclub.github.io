@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 class NotFound extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    window.scroll({top: 0, left: 0, behavior: 'smooth' })
   }
   
   render() {
     return (
       <div className="NotFound has-text-centered">
-        <section className="hero is-light is-medium">
+        <section className="hero is-fullheight-with-navbar is-light">
           <div className="hero-body">
             <div className="container">
               <h1 className="title is-1 has-text-centered">
