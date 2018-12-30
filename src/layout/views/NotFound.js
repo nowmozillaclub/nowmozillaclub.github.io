@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 class NotFound extends Component {
-  componentDidMount() {
+  componentWillMount() {
     window.scroll({top: 0, left: 0, behavior: 'smooth' })
   }
   
