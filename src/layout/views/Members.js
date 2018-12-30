@@ -44,38 +44,36 @@ class Members extends Component {
   render() {
     return (
       <div className="Members">
-        <Fade>
-          <section className="hero is-fullheight-with-navbar is-dark">
-            <div className="hero-body">
-              <div className="container">
-                <h1 className="title is-1 is-spaced">Meet Our Team</h1>
-                <p className="subtitle is-3">Dedicated to <b>Open Source</b> and the <b>Open Web</b> culture.</p>
-              </div>
+        <section className="hero is-fullheight-with-navbar is-dark">
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title is-1 is-spaced">Meet Our Team</h1>
+              <p className="subtitle is-3">Dedicated to <b>Open Source</b> and the <b>Open Web</b> culture.</p>
             </div>
-          </section>
-          <section className="hero is-fullheight-with-navbar is-dark">
-            <div className="hero-body">
-              <div className="container">
-                <div className="columns is-multiline">
-                {this.state.members.map(function(member) { return (
-                  <div className="column is-3">
-                    <figure className="image is-3by4">
-                      <img className="member-image" src={"images/" + member.image} alt={member.name} style={{ border: '2px solid white', borderRadius: '10px' }}/>
-                    </figure>
-                    <div className="is-size-5 has-text-centered has-text-weight-bold ">{member.name}</div>
-                    <div className="is-size-6 has-text-centered">{member.role}</div>
-                    <div className="is-size-6 has-text-centered">
-                      <a href={"https://github.com/" + member.github} target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-github"/> <span style={{ borderBottom: '1px dashed grey'}}>{member.github}</span>
-                      </a>
-                    </div>
+          </div>
+        </section>
+        <section className="hero is-fullheight-with-navbar is-dark">
+          <div className="hero-body">
+            <div className="container">
+              <div className="columns is-multiline">
+              {this.state.members.map(function(member) { return (
+                <div className="column is-3">
+                  <figure className="image is-3by4">
+                    <img className="member-image" src={"images/" + member.image} alt={member.name} style={{ border: '2px solid white', borderRadius: '10px' }}/>
+                  </figure>
+                  <div className="is-size-5 has-text-centered has-text-weight-bold ">{member.name}</div>
+                  <div className="is-size-6 has-text-centered">{member.role}</div>
+                  <div className="is-size-6 has-text-centered">
+                    <a href={"https://github.com/" + member.github} target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-github"/> <span style={{ borderBottom: '1px dashed grey'}}>{member.github}</span>
+                    </a>
                   </div>
-                )})}
                 </div>
+              )})}
               </div>
             </div>
-          </section>
-        </Fade>
+          </div>
+        </section>
       </div>
     );
   }
