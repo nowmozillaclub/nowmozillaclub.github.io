@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 
 class Members extends Component {
   constructor(props) {
