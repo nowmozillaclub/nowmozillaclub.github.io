@@ -2754,7 +2754,7 @@ tbody.collapse.show {
   display: block; }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
