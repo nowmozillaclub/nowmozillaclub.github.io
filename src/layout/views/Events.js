@@ -17,9 +17,6 @@ class Events extends Component {
                 Become a part of <b>NOW Mozilla Club</b> at <b>NMIMS MPSTME!</b>
               </p>
               <p className="subtitle is-3">
-                We recruit members every year during the months of <b>April</b> and <b>August</b>.
-              </p>
-              <p className="subtitle is-3">
                 Keep an eye out on a <b>notice board</b> near you! 😉
               </p>
             </div>
