@@ -1,3 +1,5 @@
+<p align="center"><img src="./img/now-circle.png" alt="N.O.W."/></p>
+
 # N.O.W. Mozilla Club
 The official website of Network for the Open Web - A Mozilla Campus Club at NMIMS MPSTME.
 
@@ -13,7 +15,7 @@ We're committed to everything Open Source and all things Secure!
 
 Check out the [website](http://nowmozilla.club) and stay tuned for more updates!
 
-# This fork was redesigned with Material Design by:
+## This fork was redesigned with Material Design by:
 - Urmil Shroff
 - Priyansh Ramnani
 - Mamta Yadav
