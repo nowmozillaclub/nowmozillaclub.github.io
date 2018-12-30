@@ -194,7 +194,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #title_card {
-    padding: 50px 25px 50px 25px;
+    padding: 50px 30px 50px 30px;
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -207,7 +207,7 @@ ul li:nth-child(5) a:hover .fab {
     overflow: auto;
 }
 
-#title_card #name {
+#name {
     font-weight: normal;
     font-size: 25px;
     margin-top: 20px;
@@ -223,8 +223,9 @@ ul li:nth-child(5) a:hover .fab {
 
 #about_card {
     position: relative;
-    padding: 15px 32px 8px 32px;
+    padding: 15px 30px 15px 30px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #about_card .element .info {
@@ -258,7 +259,8 @@ ul li:nth-child(5) a:hover .fab {
 #team_card {
     width: 290px;
     padding: 5px;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding-top: 25px;
 }
 
@@ -337,7 +339,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #project_card {
-    padding: 50px 25px 50px 25px;
+    padding: 30px 30px 15px 30px;
     position: relative;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -365,7 +367,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #event_card {
-    padding: 50px 25px 50px 25px;
+    padding: 50px 30px 15px 30px;
     position: relative;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -404,7 +406,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #news_card {
-    padding: 50px 25px 50px 25px;
+    padding: 30px 30px 15px 30px;
     position: relative;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -431,14 +433,15 @@ ul li:nth-child(5) a:hover .fab {
     line-height: 1.4;
     margin-top: 15px;
 }
+
 #privacy_card {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.4;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     position: relative;
-    padding: 15px 32px 8px 32px;
+    padding: 15px 30px 15px 30px;
     margin-top: 25px;
     text-align: left;
 }
@@ -452,6 +455,10 @@ ul li:nth-child(5) a:hover .fab {
 @media (min-width: 481px) and (max-width: 960px) {
     .card {
         width: 75%;
+    }
+
+    #contact_card {
+        margin-bottom: 25px;
     }
 
     #contact_card ul {
@@ -482,6 +489,10 @@ ul li:nth-child(5) a:hover .fab {
         margin-top: 25px;
     }
 
+    #contact_card {
+        margin-bottom: 25px;
+    }
+
     #contact_card ul {
         padding: 10px;
     }
@@ -510,5 +521,5 @@ ul li:nth-child(5) a:hover .fab {
     #event_card #portrait_photo {
         height: 330px;
         width: 250px;
-    }    
+    }
 }
