@@ -6,6 +6,7 @@ import About from './views/About';
 import Events from './views/Events';
 import Members from './views/Members';
 import Contact from './views/Contact';
+import Privacy from './views/Privacy';
 import NotFound from './views/NotFound';
 
 class Content extends Component {
@@ -18,6 +19,7 @@ class Content extends Component {
           <Route path="/events" component={Events}/>
           <Route path="/members" component={Members}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/privacy" component={Privacy}/>
           <Route component={NotFound}/>
         </Switch>
       </div>
