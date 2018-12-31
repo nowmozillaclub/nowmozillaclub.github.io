@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -30,17 +31,25 @@ class Android extends Component {
                 <b>Android App Contest</b> organised in collaboration with the <b>Computer Engineering Department</b> of <b>NMIMS MPSTME</b>.
               </p>
               <p className="subtitle is-3">
-                <a className="button is-dark is-large" href="/"  disabled>Register Now</a>
+                <NavLink to="/register" className="button is-dark is-large">Register Now</NavLink>
               </p>
-              <br/>
+            </div>
+          </div>
+        </section>
+        <section className="hero is-fullheight-with-navbar is-success">
+          <div className="hero-body">
+            <div className="container">
               <p className="title is-3">2018 Photos</p>
               <div style={{ border: '2px solid white', borderRadius: '2px' }}>
-              <ImageGallery items={images} showPlayButton={false} showThumbnails={false}/>
+                <ImageGallery items={images} showPlayButton={false} showThumbnails={false}/>
               </div>
               <br/>
-              <p className="subtitle is-5">
-                <a className="button is-dark" href="https://www.facebook.com/media/set/?set=a.317576472183815&type=1&l=689b1654f5" target="_blank" rel="noopener noreferrer">View More</a>
-              </p>
+              <a className="button" style={{ color: 'white', backgroundColor: '#3c5a99', borderColor: '#3c5a99' }} 
+                href="https://www.facebook.com/media/set/?set=a.317576472183815&type=1&l=689b1654f5" 
+                target="_blank" rel="noopener noreferrer">
+                  <span className="icon"><i className="fab fa-facebook-f"/></span>
+                  <span>View More</span>
+              </a>
             </div>
           </div>
         </section>
@@ -75,7 +84,7 @@ class Android extends Component {
               </p>
               <br/>
               <p className="subtitle is-3">
-              <a className="button is-dark is-large" href="/"  disabled>Register Now</a>
+                <NavLink to="/register" className="button is-dark is-large">Register Now</NavLink>
               </p>
             </div>
           </div>
