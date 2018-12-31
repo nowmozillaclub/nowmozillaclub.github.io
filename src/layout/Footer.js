@@ -43,11 +43,6 @@ class Footer extends Component {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/members">
-                      Members
-                    </NavLink>
-                  </li>
-                  <li>
                     <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/contact">
                       Contact
                     </NavLink>
@@ -66,13 +61,16 @@ class Footer extends Component {
               </div>
               <div className="column">
                 <p className="subtitle is-size-5 has-text-weight-bold">Subscribe to our Newsletter</p>
-                <form className="has-text-centered">
+                <form className="has-text-centered" action="https://facebook.us12.list-manage.com/subscribe/post" method="POST">
+                  <input type="hidden" name="u" value="5e7bc22114e069041bcc912ce"/>
+                  <input type="hidden" name="id" value="3ea9945a0e"/>
                   <div className="field has-addons has-text-centered">
                     <div className="control">
-                      <input className="input is-medium" type="email" placeholder="Email address"/>
+                      <input className="input is-medium" placeholder="Email address" type="email" name="EMAIL" id="EMAIL"/>
+                      <input className="is-hidden" type="text" name="b_5e7bc22114e069041bcc912ce_3ea9945a0e" tabindex="-1" value=""/>
                     </div>
                     <div className="control">
-                      <input className="button is-warning is-medium" type="button" value="Subscribe" disabled/>
+                      <input className="button is-warning is-medium" type="submit" name="subscribe" value="Subscribe"/>
                     </div>
                   </div>
                 </form>
