@@ -44,7 +44,7 @@ class Navbar extends Component {
     }
     return (
       <div className="Navbar">
-        <nav className="navbar is-fixed-top is-spaced has-shadow is-white" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-fixed-top is-spaced has-shadow is-light" role="navigation" aria-label="main navigation">
           <div className="container">
             <div className="navbar-brand">
               <NavLink className="navbar-item" to="/">
