@@ -7,13 +7,13 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        <div className="footer">
+        <div className="footer has-background-light">
           <div className="container">
             <div className="columns direction">
               <div className="column">
                 <ul>
                   <li>
-                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/">
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/home">
                       Home
                     </NavLink>
                   </li>
@@ -25,6 +25,11 @@ class Footer extends Component {
                   <li>
                     <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/events">
                       Events
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="subtitle is-size-6 is-uppercase has-text-weight-bold" to="/members">
+                      Members
                     </NavLink>
                   </li>
                   <li>
