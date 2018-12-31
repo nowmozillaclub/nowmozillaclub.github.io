@@ -44,7 +44,7 @@ class Events extends Component {
               </p>
               <p className="subtitle is-3">
                 <NavLink to="/githack" className="button is-dark is-large">Learn More</NavLink>
-              </p>              
+              </p>
             </div>
           </div>
         </section>
@@ -57,7 +57,7 @@ class Events extends Component {
               </p>
               <p className="subtitle is-3">
                 <NavLink to="/android" className="button is-dark is-large">Learn More</NavLink>
-              </p>              
+              </p>
             </div>
           </div>
         </section>

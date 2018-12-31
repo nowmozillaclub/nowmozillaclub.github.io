@@ -58,7 +58,7 @@ class Members extends Component {
               {this.state.members.map(function(member) { return (
                 <div className="column is-3">
                   <figure className="image is-3by4">
-                    <img className="member-image" src={"images/" + member.image} alt={member.name} style={{ border: '2px solid white', borderRadius: '10px' }}/>
+                    <img className="member-image" src={"images/members/" + member.image} alt={member.name} style={{ border: '2px solid white', borderRadius: '10px' }}/>
                   </figure>
                   <div className="is-size-5 has-text-centered has-text-weight-bold ">{member.name}</div>
                   <div className="is-size-6 has-text-centered">{member.role}</div>
