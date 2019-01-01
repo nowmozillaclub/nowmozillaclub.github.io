@@ -5,6 +5,7 @@ import Home from './views/Home';
 import About from './views/About';
 import Events from './views/Events';
 import Members from './views/Members';
+import Gamescript from './views/Gamescript';
 import Android from './views/Android';
 import Contact from './views/Contact';
 import Privacy from './views/Privacy';
@@ -20,6 +21,7 @@ class Content extends Component {
           <Route path="/about" component={About}/>
           <Route path="/events" component={Events}/>
           <Route path="/members" component={Members}/>
+          <Route path="/gamescript" component={Gamescript}/>
           <Route path="/android" component={Android}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/privacy" component={Privacy}/>
