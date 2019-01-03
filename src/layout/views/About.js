@@ -41,7 +41,7 @@ class About extends Component {
         {
           date: 'April 2018', 
           name: 'Android Workshop', 
-          desc: 'Working closely with the Computer Engineering Department, we organized a Final Year Project Competition for our senior year students.',
+          desc: 'Collaborating with our Computer Engineering Department for the second time, this event was geared towards sophomores.',
           icon: 'fab fa-android',
           tint: 'is-success'
         },
