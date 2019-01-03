@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 
 class Events extends Component {
@@ -9,6 +10,9 @@ class Events extends Component {
   render() {
     return (
       <div className="Events">
+        <Helmet>
+          <title>NOW - Events</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar is-info">
           <div className="hero-body">
             <div className="container">

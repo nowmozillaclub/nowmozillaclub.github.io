@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 
@@ -23,6 +24,9 @@ class Android extends Component {
     ];
     return (
       <div className="Android">
+        <Helmet>
+          <title>NOW - Android Workshop</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar" style={{ backgroundColor: 'mediumseagreen' }}>
           <div className="hero-body">
             <div className="container">

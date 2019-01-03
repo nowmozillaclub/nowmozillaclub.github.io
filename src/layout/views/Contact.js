@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 
 class Contact extends Component {
   componentWillMount() {
@@ -8,6 +9,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
+        <Helmet>
+          <title>NOW - Contact Us</title>
+        </Helmet>
         <section className="hero is-medium is-light">
           <div className="hero-body">
             <div className="container">

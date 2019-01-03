@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 import { NavLink } from 'react-router-dom';
 
 class Githack extends Component {
@@ -9,6 +10,9 @@ class Githack extends Component {
   render() {
     return (
       <div className="Githack">
+        <Helmet>
+          <title>NOW - GitHack</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar is-danger">
           <div className="hero-body">
             <div className="container">

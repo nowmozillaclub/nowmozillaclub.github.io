@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 
 class Gamescript extends Component {
   componentWillMount() {
@@ -8,6 +9,9 @@ class Gamescript extends Component {
   render() {
     return (
       <div className="Gamescript">
+        <Helmet>
+          <title>NOW - GameScript</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar is-warning">
           <div className="hero-body">
             <div className="container">

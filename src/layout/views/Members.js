@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 
 class Members extends Component {
   constructor(props) {
@@ -43,6 +44,9 @@ class Members extends Component {
   render() {
     return (
       <div className="Members">
+        <Helmet>
+          <title>NOW - Members</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar is-dark">
           <div className="hero-body">
             <div className="container">

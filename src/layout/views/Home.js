@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Helmet from 'react-helmet';
 
 class Home extends Component {
   componentWillMount() {
@@ -8,6 +9,9 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
+        <Helmet>
+          <title>Network for the Open Web</title>
+        </Helmet>
         <section className="hero is-fullheight-with-navbar is-light">
           <div className="hero-body">
             <div className="container is-hidden-desktop">
