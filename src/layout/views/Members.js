@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 class Members extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       members: [
         {name: 'Rohit Choudhari', role: 'Club Captain', image: 'rohit-choudhari.jpg', github: 'InfernapeXavier'},

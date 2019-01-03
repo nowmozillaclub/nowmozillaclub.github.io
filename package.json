@@ -5,6 +5,7 @@
   "homepage": "https://nowmozillaclub.github.io/",
   "dependencies": {
     "bulma": "^0.7.2",
+    "bulma-extensions": "^4.0.0",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
