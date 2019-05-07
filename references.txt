@@ -1,0 +1,14 @@
+NOW theme colors:
+yellow: #ffb94a
+orange: #ff6611
+dark text: #37474f
+light text: #cfd8dc
+
+MD color palette/color tool: https://material.io/tools/color/#!/?view.left=0&view.right=0
+MDL components: https://getmdl.io/components/index.html
+MD Bootstrap: https://fezvrasta.github.io/bootstrap-material-design/
+
+Use the following CSS rules to specify these font families:
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Product Sans', sans-serif;
