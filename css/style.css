@@ -143,8 +143,8 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 .element .info {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
     line-height: 1.4;
 }
 
@@ -214,9 +214,9 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #description {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.4;
     margin-top: 15px;
 }
@@ -247,8 +247,8 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #contact_card #copyright {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
 }
 
 #contact_card ul {
@@ -333,8 +333,8 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #project_card .element .credits {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
     line-height: 1.4;
 }
 
@@ -359,9 +359,9 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #project_card #description {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.4;
     margin-top: 15px;
 }
@@ -398,9 +398,9 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #event_card #description {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.4;
     margin-top: 15px;
 }
@@ -427,17 +427,17 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #news_card #description {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.4;
     margin-top: 15px;
 }
 
 #privacy_card {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 25px;
     margin-bottom: 25px;
     position: relative;
