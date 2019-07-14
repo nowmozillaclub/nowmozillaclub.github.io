@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #37474f;
     background-color: #ffb94a;
     margin: 0;
@@ -107,7 +107,7 @@ ul li:nth-child(5) a:hover .fab {
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     overflow: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -143,7 +143,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 .element .info {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     line-height: 1.4;
 }
@@ -214,7 +214,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #description {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 1.4;
@@ -247,7 +247,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #contact_card #copyright {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
 }
 
@@ -333,7 +333,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #project_card .element .credits {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     line-height: 1.4;
 }
@@ -359,7 +359,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #project_card #description {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 1.4;
@@ -398,7 +398,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #event_card #description {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 1.4;
@@ -427,7 +427,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #news_card #description {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     line-height: 1.4;
@@ -435,7 +435,7 @@ ul li:nth-child(5) a:hover .fab {
 }
 
 #privacy_card {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: normal;
     font-size: 17px;
     margin-top: 25px;
