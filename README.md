@@ -1,9 +1,9 @@
-<p align="center"><img src="./img/now-square.png" alt="N.O.W."/></p>
+<p align="center"><img src="./img/now-square.png" alt="NOW"/></p>
 
-# N.O.W. Mozilla Club
-The official website of Network for the Open Web - a Mozilla Campus Club at NMIMS MPSTME, Mumbai.
+# NOW Mozilla Club
+The official website of Network for the Open Web - a Mozilla Campus Club at MPSTME, Mumbai.
 
-N.O.W. was founded in 2018 with one purpose - well *technically*, three interwoven principles:
+NOW was founded in 2018 with one purpose - well *technically*, three interwoven principles:
 - Teach
 - Build
 - Protect
