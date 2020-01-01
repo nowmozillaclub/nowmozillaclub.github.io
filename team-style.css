@@ -1,0 +1,158 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling the main cover now */
+
+#teamIntro
+{
+    margin: 20px auto;
+    background-color: #ffb94a;
+    border-radius: 0 0 50px 50px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+}
+
+#teamIntro h2
+{
+    font-size: 75px;
+    color: white;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    justify-self: end;
+    align-self: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#teamIntro h4
+{
+    color: #37474f;
+    padding: 60px;
+    font-family: 'Verdana';
+    line-height: 2em;
+    grid-column: 1 / 6;
+    grid-row: 2 / 4;
+    align-self: start;
+}
+
+#teamIntro img
+{
+    grid-column: 7 / 14;
+    grid-row: 1 / 4;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+/* styling the main now */
+
+.TeamContent
+{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 34px;
+    color: #37474f;
+    box-sizing: border-box;
+}
+
+.TeamContent ul
+{
+    /* width: 100%; */
+    margin: 10 auto;
+    text-align: center;
+}
+
+.TeamContent li
+{
+    position: relative;
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 20px;
+    transition: 2s;
+}
+
+.TeamContent ul li img
+{
+    width: 100%;
+    letter-spacing: 2px;
+    line-height: 0;  
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+/* animating those cards */
+
+.front
+{
+    position: absolute;
+    transform: rotateY(0deg);
+}
+.back{
+    transform: rotateY(90deg);
+}
+
+.TeamContent li:hover img.front
+{
+    animation: twirlBaby 0.2s ease-in forwards;
+}
+.TeamContent li:hover img.back
+{
+    animation: twirlBaby 0.2s 0.2s ease-in reverse forwards;
+}
+
+
+@keyframes twirlBaby
+{
+    0%{
+        transform: rotateY(0deg);
+    }
+  100%{
+    transform: rotateY(90deg);
+    }
+}
+
+/* styling the github icons */
+
+.TeamContent a{
+    color: #37474f;
+    text-decoration: none;
+    font-size: 30px;
+    background: linear-gradient(to top,#333 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: 0.7s;
+    padding: 3px 5px;
+    padding-top: 4px;
+    border-radius: 50px;
+}
+
+.TeamContent a:hover
+{
+    background-position: bottom;
+    color: white;
+}
+.TeamContent a:hover i
+{
+    animation: swirlBaby 0.5s ease-out forwards;
+}
+
+@keyframes swirlBaby
+{
+    from{
+        transform: rotateY(0deg);
+    }
+    to
+    {
+        transform: rotateY(360deg);
+    }
+}
