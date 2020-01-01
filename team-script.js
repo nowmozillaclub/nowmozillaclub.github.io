@@ -2,7 +2,7 @@ var getFacebook = document.getElementsByClassName("fab fa-facebook-f")[0];
 var getInsta = document.getElementsByClassName("fab fa-instagram")[0];
 var getTwitter = document.getElementsByClassName("fab fa-twitter")[0];
 var getWhatsapp = document.getElementsByClassName("fab fa-whatsapp")[0];
-var getGithub = document.getElementsByClassName("fab fa-github")[13];
+var getGithub = document.getElementsByClassName("fab fa-github")[18];
 
 // -- getting the respective parent elements -- //
 
