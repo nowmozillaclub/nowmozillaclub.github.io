@@ -1146,4 +1146,208 @@ footer
     {
         grid-column: 2 / 9;
     }
+    #after-icon
+    {
+        font-size: 17px;
+        left: 8px;
+    }
+    #rotating-animations .quote span
+    {
+        padding: 0 5px;
+    }
+    #rotating-animations
+    {
+        padding: 20px 0;
+    }
+    #typewrite
+    {
+        max-width: auto;
+        width:auto;
+        font-size: 0.9em;
+        animation: 
+            type 6.5s steps(90, start) infinite,
+            blink-now .75s step-end infinite;
+    }
+    .social-icons li
+    {
+        padding: 0 8px;
+    }
+    .social-icons
+    {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width:390px)
+{
+    #get-me{
+        transform: scale(0.2);
+        top: -400px;
+        left:-400px;
+    }
+    #title
+    {
+        grid-auto-rows: 200px;
+        grid-row: 1fr;
+        height:auto;
+    }
+    #title .title
+    {
+        font-size: 30px;
+    }
+    #cheesy-one{
+        font-size: 1.9em !important;
+        margin-left: 15px;
+    }
+    #typwrite{
+        padding: 10px 0;
+    }
+    .second-content .now-symbol{
+        font-size: 26px;
+    }
+    .i-symbol{
+        font-size: 17px;
+    }
+    #mozilla-icon{
+        transform: scale(0.35);
+    }
+    @keyframes anima
+    {
+        0%
+        {
+            transform: scale(0.35);
+        }
+        50%
+        {
+            transform: translate3d(0,-15px,0) scale(0.351);
+        }
+        100%
+        {
+            transform: translate3d(0,-30px,0) scale(0.35);
+
+        }
+    }
+    #after-icon{
+        left: 5px;
+    }
+    .navbar-below-main a{
+        font-size: 16px;
+    }
+    .navbar-below-main a:nth-child(1){
+        padding: 5px;
+    }
+}   
+
+@media screen and (max-width:370px)
+{
+    .first-content h1:nth-of-type(1){
+        grid-column: 1 / 9;
+        grid-row: 1 / 2;
+        justify-self: center;
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+    .first-content img{
+        grid-row: 2 / 3;
+        grid-column: 2 / 8;
+        justify-self: center;
+        align-self: center;
+        top: 0;
+    }
+    .first-content h3{
+        grid-column: 1 / 9;
+        grid-row: 3 / 4 !important;
+        justify-self: center;
+        align-self: end;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        white-space: nowrap;
+    }
+    #mozilla-icon{
+        grid-column: 2 / 8;
+        grid-row: 2 / 3;
+    }
+    .second-content p{
+        grid-column: 2 / 8;
+        grid-row: 3 / 5;
+        justify-self: center;
+        text-align: left;
+    }
+    #after-icon{
+        top: 50px;
+        left: -70px;
+    }
+    #rotating-animations .quote *
+    {
+        font-size:30px;
+    }
+    .second-content .now-symbol{
+        font-size: 24px;
+    }
+    .i-symbol{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:330px){
+    .first-content h3{
+        white-space: normal;
+        text-align: center !important;
+    }
+    #cheesy-one{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:324px){
+    .i-symbol{
+        font-size: 15px;
+        padding: 0.7px 6px;
+    }   
+    footer{
+        padding: 50px 20px;
+    }
+    #get-me{
+        transform: scale(0.18);
+        top: -410px;
+        left:-410px;
+    }
+    #title
+    {
+        grid-auto-rows: 180px;
+        grid-row: 1fr;
+        height:auto;
+    }
+    #title .title
+    {
+        font-size: 27px;
+    }
+    .second-content{
+        margin: 60px 0;
+    }
+}
+
+@media screen and (max-width: 290px){
+    footer{
+        padding: 50px 5px;
+    }
+    .second-content p{
+        text-align: center;
+    }
+    #get-me{
+        transform: scale(0.16);
+        top: -425px;
+        left:-425px;
+    }
+    #title
+    {
+        grid-auto-rows: 160px;
+        grid-row: 1fr;
+        height:auto;
+    }
+    #title .title
+    {
+        font-size: 25px;
+    }
 }
