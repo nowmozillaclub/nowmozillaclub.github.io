@@ -57,3 +57,25 @@ getInstaDiv.onmouseout = function()
     getInsta.className = "fab fa-instagram" +" deturn";
 };
 
+
+// --- animating the hamburger icon to do a dropdown --- //
+
+var hamburger = document.getElementById("hamburger");
+var navbarSect = document.getElementById("navbar-button");
+var dropdown = false;
+
+hamburger.onclick = function()
+{
+    if(dropdown==false)
+    {
+        navbarSect.className = "expand";
+        navbarSect.style.display = "block";
+        dropdown = true;
+    }
+    else
+    {
+        navbarSect.className = "collapse";
+        navbarSect.style.display = "none";
+        dropdown = false;
+    }
+};
