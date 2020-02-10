@@ -101,6 +101,7 @@ a
     justify-self: center;
     text-align: center;
     font-size: 1.1em;
+    /* white-space: nowrap; */
 }
 
 .newsCard img
@@ -120,3 +121,105 @@ a
 }
 
 
+/* responsive design here */
+@media screen and (max-width:800px){
+    .NewsFront img{
+        justify-self: center;
+        align-self: center;
+    }
+    .NewsFront h4{
+        padding: 60px 40px;
+    }
+    .newsCard h5{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:700px){
+    .NewsFront img{
+        grid-row: 2 / 5;
+        align-self: start;
+        justify-self: start;
+    }
+    .NewsFront h4{
+        padding: 60px 40px;
+    }
+}
+@media screen and (max-width:650px){
+    .NewsFront h2{
+        grid-column: 2 / 5;
+    }
+    .NewsFront img{
+        grid-row: 2 / 6;
+        align-self: center;
+        justify-self: start;
+    }
+    .NewsFront h4{
+        padding: 60px 25spx;
+    }
+}
+@media screen and (max-width:600px){
+    .NewsFront h2{
+        grid-column: 2 / 5;
+    }
+    .NewsFront img{
+        grid-column: 6 / 14;
+    }
+    .NewsFront h4{
+        padding: 60px 0px 60px 20px;
+    }
+}
+@media screen and (max-width:520px){
+    .NewsFront h2{
+        grid-column: 1 / 14;
+        grid-row:1 / 2;
+    }
+    .NewsFront img{
+        grid-column: 1 / 14;
+        grid-row: 2 / 3;
+        align-self: center;
+        justify-self: center;
+    }
+    .NewsFront h4{
+        grid-column: 1 / 14;
+        grid-row: 3 / 4;
+        padding: 60px 25px;
+        text-align: center;
+    }
+    .newsCard h5{
+        white-space: normal;
+    }
+    .linkTweet::after{
+        margin-left: 45px;
+    }
+    .linkTweet:hover:after
+    {
+        width: 60%;
+    }
+}
+@media screen and (max-width:450px){
+    .linkTweet::after{
+        margin-left: 35px;
+    }
+    .linkTweet:hover:after
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width:425px){
+    .linkTweet::after{
+        margin-left: 22px;
+    }
+    .linkTweet:hover:after
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width:370px){
+    .linkTweet::after{
+        margin-left: 15px;
+    }
+    .linkTweet:hover:after
+    {
+        width: 85%;
+    }
+}
