@@ -26,6 +26,7 @@ body
     justify-self: end;
     align-self: end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 10;
 }
 
 #teamIntro h4
@@ -74,7 +75,6 @@ body
     position: relative;
     width: 25%;
     text-align: center;
-    margin: 0;
     display: inline-block;
     box-sizing: border-box;
     margin: 20px;
@@ -156,3 +156,150 @@ body
         transform: rotateY(360deg);
     }
 }
+
+/* responsive design starts here */
+
+@media screen and (max-width:1150px){
+    #teamIntro h2{
+        /* font-size: 70px; */
+        padding-left: 20px;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:1100px){
+    #teamIntro h2{
+        grid-column: 1 / 6;
+    }
+}
+@media screen and (max-width:900px){
+    #teamIntro h2{
+        font-size: 65px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:847px){
+    #teamIntro h4{
+        grid-column: 1 / 7;
+    }
+}
+@media screen and (max-width:770px){
+    #teamIntro h2{
+        grid-column: 1 / 7;
+    }
+}
+@media screen and (max-width:1150px){
+    #teamIntro h2{
+        grid-column: 1 / 8;
+    }
+    #teamIntro h4{
+        grid-row: 2 / 3;
+        padding-top: 20px;
+    }
+    .TeamContent ul
+    {
+        margin: 7 auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width:610px){
+    #teamIntro h2{
+        z-index: 10;    
+        padding: 0;
+        padding-right: 10px;
+    }
+    #teamIntro h4{
+        /* padding:30px;
+        padding-top: 20px; */
+        padding: 20px;
+    }
+    #teamIntro img{
+        grid-column: 6 / 14;
+        align-self: end;
+    }
+    .TeamContent ul{
+        padding:0;
+    }
+}
+@media screen and (max-width:560px){
+    #teamIntro h2{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:500px){
+    #teamIntro h2{
+        font-size: 55px;
+    }
+    .TeamContent li{
+        margin: 10px;
+        width: 35%;
+    }
+    .TeamContent a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:470px){
+    #teamIntro h2{
+        grid-column: 1 / 9;
+    }
+    #teamIntro img{
+        align-self: center;
+    }
+    .TeamContent li{
+        margin: 10px;
+        width: 35%;
+    }
+    .TeamContent a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:425px){
+    #teamIntro h2{
+        grid-column: 1 / 14;
+        justify-self: start;
+        padding-left: 50px;
+    }
+    #teamIntro img{
+        grid-column: 2 / 13;
+        grid-row: 2 / 3;
+        align-self: center;
+    }
+    #teamIntro h4{
+        grid-column: 2 / 13;
+        grid-row: 3 / 4;
+        align-self: center;
+    }
+    
+}
+@media screen and (max-width:385px){
+    .TeamContent li{
+        margin: 5px;
+        width: 40%;
+    }
+    .TeamContent a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:330px){
+    #teamIntro h2{
+        justify-self: center;
+        padding: 0;
+    }
+    #teamIntro img{
+        grid-column: 1 / 14;
+        grid-row: 2 / 3;
+        align-self: center;
+    }
+    .TeamContent li{
+        margin: 5px;
+        width: 70%;
+    }
+    .TeamContent a{
+        font-size: 30px;
+    }
+}
+/* @media screen and (max-width: 1030px),(min-width: 1020px) and (max-height:1370),(min-height: 1360){
+    #teamIntro h2{
+        grid-column: 1 / 6;
+    }
+} */
