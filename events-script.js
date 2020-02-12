@@ -5,41 +5,41 @@ var fourthImg = document.getElementsByClassName("fourth")[0];
 var fifthImg = document.getElementsByClassName("fifth")[0];
 var sizthImg = document.getElementsByClassName("sixth")[0];
 
-var allImgs = document.getElementsByClassName("slides");
-var sizeImg = allImgs.length;
+// var allImgs = document.getElementsByClassName("slides");
+// var sizeImg = allImgs.length;
 
-var next = document.getElementsByClassName("next")[0];
-var prev = document.getElementsByClassName("prev")[0];
+// var next = document.getElementsByClassName("next")[0];
+// var prev = document.getElementsByClassName("prev")[0];
 
-var counter = 0;
+// var counter = 0;
 
-next.onclick = function()
-{
-    allImgs[counter].style.display = "none";
-    if(counter+1>=sizeImg)
-    {
-        counter = 0;
-    }
-    else
-    {
-        counter=counter+1;
-    }
-    allImgs[counter].style.display = "inline-block";
-};
+// next.onclick = function()
+// {
+//     allImgs[counter].style.display = "none";
+//     if(counter+1>=sizeImg)
+//     {
+//         counter = 0;
+//     }
+//     else
+//     {
+//         counter=counter+1;
+//     }
+//     allImgs[counter].style.display = "inline-block";
+// };
 
-prev.onclick = function()
-{
-    allImgs[counter].style.display = "none";
-    if(counter-1<0)
-    {
-        counter=sizeImg-1;
-    }
-    else
-    {
-        counter = counter-1;
-    }
-    allImgs[counter].style.display = "inline-block";
-};
+// prev.onclick = function()
+// {
+//     allImgs[counter].style.display = "none";
+//     if(counter-1<0)
+//     {
+//         counter=sizeImg-1;
+//     }
+//     else
+//     {
+//         counter = counter-1;
+//     }
+//     allImgs[counter].style.display = "inline-block";
+// };
 
 
 // footer now //
