@@ -416,3 +416,114 @@ footer
 {
     background-color: #00000009;
 }
+
+/* responsive here */
+@media screen and (max-width:1000px){
+    #ProjectFront h2{
+        grid-column: 1 / 6;
+    }
+}
+@media screen and (max-width:850px){
+    #ProjectFront img{
+        grid-column: 6 / 14;
+    }
+    #ProjectFront h4{
+        padding: 40px 30px;
+    }
+}
+@media screen and (max-width:800px){
+    #ProjectFront h2{
+        grid-column: 1 / 7;
+    }
+    #ProjectFront h4{
+        padding: 40px 30px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width:700px){
+    #ProjectFront h2{
+        grid-column: 1 / 7;
+    }
+    #ProjectFront h4{
+        padding: 40px 20px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width:640px){
+    #ProjectFront h2{
+        grid-column: 1 / 8;
+    }
+    #ProjectFront img
+    {
+        align-self: center;
+    }
+    #ProjectFront h4{
+        grid-column: 1 / 6;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width:600px){
+    #ProjectFront h2{
+        font-size: 65px;
+    }
+    #ProjectFront img
+    {
+        grid-row: 2 / 6;
+    }
+    #ProjectFront h4{
+        grid-column: 1 / 6;
+        font-size: 0.9em;
+    }
+    .ProjectCard h3{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .ProjectCard h5{
+        font-size:1em;
+    }
+}
+@media screen and (max-width:550px){
+    #ProjectFront h2{
+        grid-column: 1 / 14;
+    }
+    #ProjectFront img
+    {
+        grid-column: 2 / 13;
+        grid-row:2 / 3;
+        justify-self: center;
+    }
+    #ProjectFront h4{
+        grid-column: 3 / 12;
+        grid-row: 3 / 4;
+        text-align: center;
+    }
+    .ProjectCard{
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width:450px){
+    .ProjectCard h3{
+        grid-column: 1 / 10;
+    }
+    .ProjectCard img{
+        grid-column: 3 / 8;
+        grid-row: 2 / 3;
+        padding-bottom: 30px;
+        justify-self: center;
+    }
+    .ProjectCard h5{
+        grid-column: 1 / 10;
+        grid-row: 3 / 4;
+    }
+    .ProjectCard h6{
+        grid-column: 2 / 9;
+        grid-row: 4 / 5;
+    }
+}
+
+@media screen and (max-width:320px){
+    .social-icons li{
+        padding: 0 5px;
+    }
+}
+
