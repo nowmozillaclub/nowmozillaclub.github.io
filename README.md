@@ -15,4 +15,8 @@ We're committed to everything Open Source and all things Secure!
 
 Check out the [website](http://nowmozilla.club) and stay tuned for more updates!
 
-## The site was redesigned by Aajinkya Singh
+## The site was redesigned with Material Design by:
+- Urmil Shroff
+- Priyansh Ramnani
+- Mamta Yadav
+- Nirmit Agrawal

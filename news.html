@@ -1,132 +1,117 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8">
+<html lang="en" dir="ltr">
 
 <head>
-    <title>
-        N.O.W. | News
-    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="A Mozilla Campus Club at MPSTME, Mumbai. We teach, promote & build Open Source software.">
+
+    <title>NOW | News</title>
+
     <link rel="shortcut icon" type="image/png" href="./img/favicon.ico" />
-    <link rel="stylesheet" href="news-style.css" type="text/css">
-    <link rel="stylesheet" href="project-style.css" type="text/css">
-    <link rel="stylesheet" href="test-style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/52ed91bc0f.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/material-design-lite.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-material-design.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/bootstrap-material-design.js"></script>
 </head>
 
 <body>
+    <div id="bg"></div>
 
-    <section class="NewsFront">
-        <h2>
-            <br>
-            News
-        </h2>
-        <h4>
-            Have a look at our Twitter Feed! <br>
-            Let us know what you feel by tagging us @nowmozillaclub while you're at it! <br>
-            Okay, now go catch up with all the news!
-        </h4>
-        <img src="./img/news/1st.svg" alt="Front section of News Page">
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a href="index.html"><img src="./img/now.png" width="40" height="40" alt="NOW"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <ul class="dropdown-menu">
+                    <li class="dropdown">
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./index.html">Home<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./news.html">News<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./events.html">Events<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./projects.html">Projects<span class="caret"></span></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="./team.html">Team<span class="caret"></span></a>
+                    </li>
+                    </li>
+                </ul>
 
-    <nav class="navbar-below-main">
-
-        <a href="index.html">
-            <img src="./img/now.png" width="60" height="60" alt="N.O.W.">
-        </a>
-
-        <div id="direct-links">
-
-            <i class="fas fa-bars" id="hamburger"></i>
-            <ul id="navbar-button" class="collapse">
-                <li>
-                    <a href="./index.html" style="color: #37474f;">Home</a>
-                </li>
-                <li>
-                    <a href="./news.html" style="color: #181f22;">News </a>
-                </li>
-                <li>
-                    <a href="./events.html">Events</a>
-                </li>
-                <li>
-                    <a href="./projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="./team.html">Team</a>
-                </li>
-            </ul>
-
-            <a class="navbar-items" href="./index.html" style="color: #37474f;"> Home </a>
-            <a class="navbar-items" href="./news.html" style="color: #181f22;"> News</a>
-            <a class="navbar-items" href="./events.html">Events</a>
-            <a class="navbar-items" href="./projects.html">Projects</a>
-            <a class="navbar-items" href="./team.html">Team</a>
+                <a class="nav-item nav-link" href="./index.html">Home</a>
+                <a class="nav-item nav-link active" href="./news.html">News<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./events.html">Events</a>
+                <a class="nav-item nav-link" href="./projects.html">Projects</a>
+                <a class="nav-item nav-link" href="./team.html">Team</a>
+            </div>
         </div>
-
     </nav>
 
-    <main class="mainNewsContent">
-        <div class="newsCard">
-            <h3>
-                Tweets
-            </h3>
-            <h5>
-                <br>
-                The latest tweets by <a href="https://twitter.com/nowmozillaclub/" class="linkTweet">@nowmozillaclub</a>
+    <div id="news_card" class="card">
+        <div><img id="photo" src="./img/now-square.png" alt="NOW" /></div>
+        <h1 id="name">Stay Tuned</h1>
+        <section class="tab">
+            <hr id="ruler" />
+            <h2 id="description">Many exciting events planned for 2019!</h2>
+        </section>
+    </div>
 
-            </h5>
-            <img src="./img/news/twitter.png" alt="twitter icon">
-        </div>
-        <div class="twitterEmbed">
-            <a class="twitter-timeline" data-width="1000" data-height="1200" data-theme="dark"
-                href="https://twitter.com/nowmozillaclub?ref_src=twsrc%5Etfw">Tweets by nowmozillaclub</a>
+    <div id="news_card" class="card">
+        <div><img id="photo" src="./img/twitter.png" alt="Tweets" /></div>
+        <h1 id="name">Tweets</h1>
+        <section class="tab" id="twitter">
+            <hr id="ruler" />
+            <h2 id="description">The latest Tweets by <a href="https://twitter.com/nowmozillaclub/" target="_blank">@nowmozillaclub</a></h2>
+            <a class="twitter-timeline" data-width="1000" data-height="1000" data-theme="light" data-link-color="#ff6611" href="https://twitter.com/nowmozillaclub?ref_src=twsrc%5Etfw">Tweets by @nowmozillaclub</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-    </main>
+        </section>
+    </div>
 
-    <footer style="font-family: Verdana;">
-        <div id="social-media">
-            <h1 id="cheesy-one">We'd love to hear from you!</h1>
-            <h3 id="typewrite">console.log("Follow us on");</h3> <br>
-
-            <ul class="social-icons">
+    <div id="contact_card" class="card">
+        <center>
+            <ul>
                 <li>
-                    <a href="https://www.facebook.com/nowmozillaclub/" target="_blank" id="faceDiv"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/nowmozillaclub/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </li>
 
                 <li>
-                    <a href="https://www.instagram.com/nowmozillaclub/" target="_blank" id="instaDiv"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/nowmozillaclub/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
 
                 <li>
-                    <a href="https://twitter.com/nowmozillaclub/" target="_blank" id="twitterDiv"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/nowmozillaclub/" target="_blank"><i class="fab fa-twitter"></i></a>
                 </li>
 
                 <li>
-                    <a href="https://chat.whatsapp.com/EH4xPASr5aqG9HJvwqlnXz" target="_blank" id="whatsappDiv"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://chat.whatsapp.com/EH4xPASr5aqG9HJvwqlnXz" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </li>
 
                 <li>
-                    <a href="https://github.com/nowmozillaclub/" target="_blank" id="githubDiv"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/nowmozillaclub/" target="_blank"><i class="fab fa-github"></i></a>
                 </li>
             </ul>
-
-        </div>
-
-        <div>
-            <h3 class="copyright">
-                © 2020 Network for the Open Web, Mumbai.
-            </h3>
-        </div>
-
-        <div class="privacyDiv">
-            <a href="./privacy.html" class="privacy">
-                Privacy Policy
+            
+            <div id="copyright">© 2019 Network for the Open Web, Mumbai.</div>
+            <p></p>
+            <a href="./privacy.html">
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect">Privacy Policy</button>
             </a>
-        </div>
-    </footer>
+            <p></p>
+        </center>
 
-    <script src="news-script.js"></script>
+    </div>
 </body>
 
 </html>
